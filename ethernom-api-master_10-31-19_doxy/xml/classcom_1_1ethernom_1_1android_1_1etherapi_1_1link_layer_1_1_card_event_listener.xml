@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>com::ethernom::android::etherapi::linkLayer::CardEventListener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1ad9fe43a6673d7e2c8f7969129cb26afb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onCardOpenSuccess</definition>
+        <argsstring>(int resultCode)</argsstring>
+        <name>onCardOpenSuccess</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="4" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a12bc0f6a876f07a7f7223e58bf783f01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onCardOpenFail</definition>
+        <argsstring>(int resultCode, int hwSpecificError)</argsstring>
+        <name>onCardOpenFail</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hwSpecificError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="5" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a5f86d70cadf3d2d652b67ca2128eeeda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onCardClosedSucess</definition>
+        <argsstring>(int resultCode)</argsstring>
+        <name>onCardClosedSucess</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="7" column="1"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a5fa7afd43aba43e8dc79e831f4ef274d" compoundref="_ether_b_t_adapter_8java" startline="97" endline="103">com.ethernom.android.etherapi.linkLayer.EtherBTAdapter.CardClose</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a76ddf19df7063f490b94449ad8de2b2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onCardClosedFail</definition>
+        <argsstring>(int resultCode, int hwSpecificError)</argsstring>
+        <name>onCardClosedFail</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hwSpecificError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1aba636a8cdbf15d8440b26c66b653b611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onCardClosedByCard</definition>
+        <argsstring>(int resultCode)</argsstring>
+        <name>onCardClosedByCard</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1aa1274186d93227cf6202d32bd6648a42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onCardConnectionDropped</definition>
+        <argsstring>(int resultCode)</argsstring>
+        <name>onCardConnectionDropped</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a25f22cba82893eb625006927a184fc20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onWriteToCardSuccess</definition>
+        <argsstring>(int resultCode)</argsstring>
+        <name>onWriteToCardSuccess</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1ad2d31c5d9007c510b380e5195e5411da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onWriteToCardFail</definition>
+        <argsstring>(int resultCode, int hwSpecificError)</argsstring>
+        <name>onWriteToCardFail</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hwSpecificError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1af22ac0f453fa0f726a6490f69b298dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onReadFromCardSuccess</definition>
+        <argsstring>(int resultCode, byte[] buffer)</argsstring>
+        <name>onReadFromCardSuccess</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>byte []</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1afcce05e6e80e339404ad768a8af4bc9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.ethernom.android.etherapi.linkLayer.CardEventListener.onReadFromCardFail</definition>
+        <argsstring>(int resultCode, int hwSpecificError)</argsstring>
+        <name>onReadFromCardFail</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hwSpecificError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" line="3" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/CardEventListener.java" bodystart="3" bodyend="18"/>
+    <listofallmembers>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1aba636a8cdbf15d8440b26c66b653b611" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onCardClosedByCard</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a76ddf19df7063f490b94449ad8de2b2e" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onCardClosedFail</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a5f86d70cadf3d2d652b67ca2128eeeda" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onCardClosedSucess</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1aa1274186d93227cf6202d32bd6648a42" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onCardConnectionDropped</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a12bc0f6a876f07a7f7223e58bf783f01" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onCardOpenFail</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1ad9fe43a6673d7e2c8f7969129cb26afb" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onCardOpenSuccess</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1afcce05e6e80e339404ad768a8af4bc9c" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onReadFromCardFail</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1af22ac0f453fa0f726a6490f69b298dd6" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onReadFromCardSuccess</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1ad2d31c5d9007c510b380e5195e5411da" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onWriteToCardFail</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a25f22cba82893eb625006927a184fc20" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::linkLayer::CardEventListener</scope><name>onWriteToCardSuccess</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

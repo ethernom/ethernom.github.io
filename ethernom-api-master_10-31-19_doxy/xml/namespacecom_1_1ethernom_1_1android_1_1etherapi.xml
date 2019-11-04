@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacecom_1_1ethernom_1_1android_1_1etherapi" kind="namespace" language="Java">
+    <compoundname>com::ethernom::android::etherapi</compoundname>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_build_config" prot="public">com::ethernom::android::etherapi::BuildConfig</innerclass>
+    <innerclass refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_card_close_listener" prot="public">com::ethernom::android::etherapi::CardCloseListener</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info" prot="public">com::ethernom::android::etherapi::CardInfo</innerclass>
+    <innerclass refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_connection_event_listener" prot="public">com::ethernom::android::etherapi::ConnectionEventListener</innerclass>
+    <innerclass refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener" prot="public">com::ethernom::android::etherapi::DiscoverServiceListener</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i" prot="public">com::ethernom::android::etherapi::EtherAPI</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager" prot="package">com::ethernom::android::etherapi::EtherAPIManager</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_package" prot="public">com::ethernom::android::etherapi::EtherAPIPackage</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error" prot="public">com::ethernom::android::etherapi::EtherError</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_n_f_c_adapter" prot="public">com::ethernom::android::etherapi::EtherNFCAdapter</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol" prot="public">com::ethernom::android::etherapi::EtherTransportProtocol</innerclass>
+    <innerclass refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_read_listener" prot="public">com::ethernom::android::etherapi::ReadListener</innerclass>
+    <innerclass refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_select_listener" prot="public">com::ethernom::android::etherapi::SelectListener</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_service_event_listener" prot="public">com::ethernom::android::etherapi::ServiceEventListener</innerclass>
+    <innerclass refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol" prot="public">com::ethernom::android::etherapi::TMessageProtocol</innerclass>
+    <innerclass refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_un_solicited_event_listener" prot="public">com::ethernom::android::etherapi::UnSolicitedEventListener</innerclass>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils" prot="public">com::ethernom::android::etherapi::Utils</innerclass>
+    <innernamespace refid="namespacecom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer">com::ethernom::android::etherapi::linkLayer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Automatically generated file. DO NOT MODIFY </para>    </detaileddescription>
+    <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated/source/buildConfig/debug/com/ethernom/android/etherapi/BuildConfig.java" line="4" column="1"/>
+  </compounddef>
+</doxygen>

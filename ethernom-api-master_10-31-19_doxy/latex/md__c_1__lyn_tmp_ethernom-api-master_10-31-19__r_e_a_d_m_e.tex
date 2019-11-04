@@ -1,0 +1,197 @@
+From your command line\+: 
+\begin{DoxyCode}
+cd -> directory
+
+# Clone the ethernom-api repository to the root directory
+# Open package.json
+# Add back: "ethernom-api":"1.0.0"
+\end{DoxyCode}
+
+
+\subsubsection*{A\+PI C\+A\+L\+LS\+:}
+
+\subsubsection*{How-\/\+To\+: Initialize Ethernom\+A\+PI\+:}
+
+Parameter\+: \{~\newline
+ transport\+Type = \char`\"{}\+U\+S\+B\char`\"{}, \char`\"{}\+B\+L\+E\char`\"{} \& \char`\"{}\+N\+F\+C\char`\"{},~\newline
+ A\+P\+I\+\_\+\+ID = 0x00 $\sim$ 0x\+FF,~\newline
+ secs\+Timeout = -\/1 (Doesn\textquotesingle{}t timeout) or possitive integer,~\newline
+ allow\+Duplicates = true or false,~\newline
+ stop\+Scan\+On\+Write = true or false,~\newline
+ Callback function~\newline
+ \}~\newline
+ Callback\+: result\+Code 
+\begin{DoxyCode}
+import \{EthernomAPI\} from "ethernom-api";
+var MAIN\_E\_API = new EthernomAPI(transportType, API\_ID, secsTimeout, allowDuplicates, stopScanOnWrite,
+       (resultCode) =>\{
+    if (resultCode == ETH\_SUCCESS)\{
+        //Initialize success
+        MAIN\_E\_API.DiscoverDevices(this.\_device\_discovery);
+        /*
+        ...
+        Can start using other EthernomAPI calls
+        ...
+        ...
+        */
+    \}else\{
+        //Initialize fail
+    \}
+\});
+\end{DoxyCode}
+ ~\newline
+
+
+\subsubsection*{How-\/\+To\+: Discovery devices\+:}
+
+Parameter\+: Callback function~\newline
+ Callback\+: result\+Code, device\+ID and device\+Name 
+\begin{DoxyCode}
+MAIN\_E\_API.DiscoverDevices(this.\_device\_discovery);
+
+\_device\_discovery = (resultCode, deviceID, deviceName) => \{
+    console.log(deviceID);
+    console.log(deviceName):
+\}
+\end{DoxyCode}
+ ~\newline
+
+
+\#\#\# How-\/\+To\+: Stop discovery devices\+: 
+\begin{DoxyCode}
+MAIN\_E\_API.StopDiscovery();
+\end{DoxyCode}
+ ~\newline
+
+
+\subsubsection*{How-\/\+To\+: Select/\+Connect devices\+:}
+
+When want to select/connect to a devices, create a new Ethernom\+A\+PI instaces to handle the connection.~\newline
+ Parameter\+: device\+ID, device\+Name \& Callback function~\newline
+ Callback\+: result\+Code 
+\begin{DoxyCode}
+var E\_API = new EthernomAPI(transportType, API\_ID, 0, false, true, (resultCode) => \{
+    if (resultCode == ETH\_SUCCESS)\{
+        this.\_device\_select(resultCode, deviceID, deviceName, E\_API);
+    \}else\{
+        //Fails initialize
+    \}
+\});
+
+\_device\_select = (resultCode, deviceID, deviceName, E\_API) => \{
+    E\_API.Select(deviceID, deviceName, (resultCode) =>\{
+        if (resultCode == ETH\_SUCCESS)\{
+            /*
+            ...
+            Can start write/read card
+            ...
+            */
+        \}else\{
+            //Fails select
+        \}
+    \}
+\}
+\end{DoxyCode}
+ ~\newline
+
+
+\subsubsection*{How-\/\+To\+: Write to devices\+:}
+
+Parameter\+: Inbound Message Struct, Outbound Message Struct \& Callback function~\newline
+ Callback\+: result\+Code and Inbound Message 
+\begin{DoxyCode}
+//Options for Outbound message variable types are: ETH\_STRING\_AS\_UNICODE, ETH\_STRING\_AS\_ASUTF8,
+       ETH\_INT\_AS\_BYTE & ETH\_INT\_AS\_2BYTE
+//Outbound message is what will be send to the car
+//Each parameter must contains the value
+var out\_msg = \{
+    command: \{
+        encoding: ETH\_INT\_AS\_BYTE,
+        value: TRK\_H2C\_INIT
+    \},
+    PARAMETER1: \{
+        encoding: ETH\_STRING\_AS\_ASTUF8,
+        value: "STRING\_VALUE";
+    \},
+    PARAMETER2: \{
+        encoding: ETH\_STRING\_AS\_UNICODE,
+        value: "汉字";
+    \},
+    PARAMETER3: \{
+        encoding: ETH\_INT\_AS\_2BYTE,
+        value: integer (0 ~ 65535);
+    \},
+    PARAMETER4: \{
+        encoding: ETH\_INT\_AS\_BYTE,
+        value: integer (0 ~ 255);
+    \}
+\}
+
+//Options for Inbound message variable types are: ETH\_UNICODESTRING, ETH\_UTF8STRING, ETH\_BYTE, ETH\_2BYTE,
+       ETH\_PAYLOAD
+//Inbound message is to define to what's the expected value back from the card, when the EthernomAPI
+       receives the message from card. 
+//The EthernomAPI will know which value belongs to which parameter
+var in\_msg  = \{
+    command : ETH\_BYTE,
+    PARAMETER1: ETH\_BYTE,
+    PARAMETER2: ETH\_2BYTE,
+    PARAMETER3: ETH\_UTF8STRING,
+    PARAMETER4: ETH\_UNICODESTRING,
+    PAYLOAD: ETH\_PAYLOAD (Optional)
+\}
+
+E\_API.WriteJSON(out\_msg, in\_msg, (resultCode, msg) => \{
+    if(resultCode == ETH\_SUCCESS)\{
+        console.log(msg.command):
+        console.log(msg.PARAMETER1):
+        console.log(msg.PARAMETER2):
+        console.log(msg.PARAMETER3):
+        console.log(msg.PARAMETER4):
+        console.log(msg.PAYLOAD):
+    \}else\{
+        //Fails write
+    \}
+\}
+\end{DoxyCode}
+ ~\newline
+
+
+\subsubsection*{How-\/\+To\+: Subscribe to unsolicted events\+:}
+
+Parameter\+: device\+ID, device\+Name, Inbound Message Struct, Callback function~\newline
+ Callback\+: result\+Code and Inbound Message 
+\begin{DoxyCode}
+E\_API.SubscribeToUnsolictedEvents(deviceID, deviceName, in\_msg, this.\_on\_listener);
+
+\_on\_listener = (deviceID, deviceName, resultCode, msg) => \{
+    console.log(deviceID);
+    console.log(deviceName);
+    console.log(msg);
+\}
+\end{DoxyCode}
+
+
+\#\#\# How-\/\+To\+: Unsubscribe to unsolicted events\+: 
+\begin{DoxyCode}
+E\_API.UnSubscribeToUnsolictedEvents();
+\end{DoxyCode}
+ ~\newline
+
+
+\subsubsection*{How-\/\+To\+: Card close\+:}
+
+Parameter\+: Callback function~\newline
+ Callback\+: result\+Code 
+\begin{DoxyCode}
+E\_API.CardClose(this.\_callback\_disconnect);
+
+\_callback\_disconnect = (resultCode) => \{
+    if (resultCode == ETH\_SUCCESS)\{
+        console.log("Disconnect successfully");
+    \}else\{
+        console.log("Fails");
+    \}
+\}
+\end{DoxyCode}
+ 

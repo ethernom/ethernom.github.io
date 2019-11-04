@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener" kind="interface" language="Java" prot="public">
+    <compoundname>com::ethernom::android::etherapi::DiscoverServiceListener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1af4153d6e21ddccb41644a042c448e400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.ethernom.android.etherapi.DiscoverServiceListener.onServiceDiscover</definition>
+        <argsstring>(int resultCode, String deviceID, String deviceName)</argsstring>
+        <name>onServiceDiscover</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>deviceID</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>deviceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/DiscoverServiceListener.java" line="4" column="1"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a9785ed6dbf7ce2f95bc22f8aa9908392" compoundref="_ether_a_p_i_8java" startline="41" endline="159">com.ethernom.android.etherapi.EtherAPI.SetupCardListeners</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1a0d7ab8a900298d299c863ce4b3527b8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.ethernom.android.etherapi.DiscoverServiceListener.onServiceDiscoverFail</definition>
+        <argsstring>(int resultCode, int hwSpecificError)</argsstring>
+        <name>onServiceDiscoverFail</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hwSpecificError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/DiscoverServiceListener.java" line="5" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1af4a5c1f5c82cde22d8ec1effe5a51ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.ethernom.android.etherapi.DiscoverServiceListener.onServiceDiscoverEnd</definition>
+        <argsstring>(int resultCode)</argsstring>
+        <name>onServiceDiscoverEnd</name>
+        <param>
+          <type>int</type>
+          <declname>resultCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/DiscoverServiceListener.java" line="6" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/DiscoverServiceListener.java" line="3" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/DiscoverServiceListener.java" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1af4153d6e21ddccb41644a042c448e400" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::DiscoverServiceListener</scope><name>onServiceDiscover</name></member>
+      <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1af4a5c1f5c82cde22d8ec1effe5a51ff9" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::DiscoverServiceListener</scope><name>onServiceDiscoverEnd</name></member>
+      <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1a0d7ab8a900298d299c863ce4b3527b8d" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::DiscoverServiceListener</scope><name>onServiceDiscoverFail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

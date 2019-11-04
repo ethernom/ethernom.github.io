@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info" kind="class" language="Java" prot="public">
+    <compoundname>com::ethernom::android::etherapi::CardInfo</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a503aeab1d921778a53c1769abeb559fa" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.ethernom.android.etherapi.CardInfo._cardName</definition>
+        <argsstring></argsstring>
+        <name>_cardName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" line="5" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a2bf8528f0d4058a8fbd7d59acbd9d065" compoundref="_card_info_8java" startline="8" endline="8">com.ethernom.android.etherapi.CardInfo.GetCardName</referencedby>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a238bab6cc173acfa24986bfe9be0d5a8" compoundref="_card_info_8java" startline="12" endline="15">com.ethernom.android.etherapi.CardInfo.CardInfo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1afa93a69a94c31798c5780c4be71ab86d" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.ethernom.android.etherapi.CardInfo._deviceID</definition>
+        <argsstring></argsstring>
+        <name>_deviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" line="6" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" bodystart="6" bodyend="-1"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1af56039cd0223acddde740b8518b4a454" compoundref="_card_info_8java" startline="10" endline="10">com.ethernom.android.etherapi.CardInfo.GetDeviceID</referencedby>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a238bab6cc173acfa24986bfe9be0d5a8" compoundref="_card_info_8java" startline="12" endline="15">com.ethernom.android.etherapi.CardInfo.CardInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a2bf8528f0d4058a8fbd7d59acbd9d065" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.ethernom.android.etherapi.CardInfo.GetCardName</definition>
+        <argsstring>()</argsstring>
+        <name>GetCardName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" line="8" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" bodystart="8" bodyend="8"/>
+        <references refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a503aeab1d921778a53c1769abeb559fa" compoundref="_card_info_8java" startline="5">com.ethernom.android.etherapi.CardInfo._cardName</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1af56039cd0223acddde740b8518b4a454" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.ethernom.android.etherapi.CardInfo.GetDeviceID</definition>
+        <argsstring>()</argsstring>
+        <name>GetDeviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" line="10" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" bodystart="10" bodyend="10"/>
+        <references refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1afa93a69a94c31798c5780c4be71ab86d" compoundref="_card_info_8java" startline="6">com.ethernom.android.etherapi.CardInfo._deviceID</references>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1ab497ade3ef9529ee8c6355f53925092f" compoundref="_ether_b_t_adapter_8java" startline="112" endline="119">com.ethernom.android.etherapi.linkLayer.EtherBTAdapter.CardOpen</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a238bab6cc173acfa24986bfe9be0d5a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.ethernom.android.etherapi.CardInfo.CardInfo</definition>
+        <argsstring>(String name, String manufacturingID)</argsstring>
+        <name>CardInfo</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>manufacturingID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" line="12" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" bodystart="12" bodyend="15"/>
+        <references refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a503aeab1d921778a53c1769abeb559fa" compoundref="_card_info_8java" startline="5">com.ethernom.android.etherapi.CardInfo._cardName</references>
+        <references refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1afa93a69a94c31798c5780c4be71ab86d" compoundref="_card_info_8java" startline="6">com.ethernom.android.etherapi.CardInfo._deviceID</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" line="3" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/CardInfo.java" bodystart="3" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a503aeab1d921778a53c1769abeb559fa" prot="package" virt="non-virtual"><scope>com::ethernom::android::etherapi::CardInfo</scope><name>_cardName</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1afa93a69a94c31798c5780c4be71ab86d" prot="package" virt="non-virtual"><scope>com::ethernom::android::etherapi::CardInfo</scope><name>_deviceID</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a238bab6cc173acfa24986bfe9be0d5a8" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::CardInfo</scope><name>CardInfo</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a2bf8528f0d4058a8fbd7d59acbd9d065" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::CardInfo</scope><name>GetCardName</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1af56039cd0223acddde740b8518b4a454" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::CardInfo</scope><name>GetDeviceID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,451 @@
+\hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter}{}\section{com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter Class Reference}
+\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter}\index{com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter@{com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter}}
+
+
+Inheritance diagram for com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface}{T\+Interface}} \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a4bc7f98a76ddf71b743daac86f4c5a91}{Get\+Interface}} ()
+\item 
+String \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a7af0ffd9265992004a5a0b67a5c7b68b}{Get\+Adapter\+Address}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a80aaeb9d8c44f40235533814db1b75e1}{Set\+Adapter\+Address}} (String adapter\+Address)
+\item 
+void \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_afb99b565d023488ead67d41e7615b9b8}{Stop\+Discovery}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a5fa7afd43aba43e8dc79e831f4ef274d}{Card\+Close}} ()
+\item 
+U\+U\+ID \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a89cbe5764305e090c0f082436b09c9a7}{convert\+From\+Integer}} (int i)
+\item 
+void \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ab497ade3ef9529ee8c6355f53925092f}{Card\+Open}} (\mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info}{Card\+Info}} card\+Info)
+\item 
+void \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a07666a5fbd2327c57a2aff60e90028cd}{Init}} (int service\+Port, long secs\+Timeout, boolean allow\+Duplicates, boolean stop\+Scan\+On\+Write, Context context)
+\item 
+void \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a21a0fe01522036d0e40372a8423e14aa}{Discover}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ae1cc07da30ac57caf5891ae7d1b0268d}{Write\+To\+Card}} (byte\mbox{[}$\,$\mbox{]} transport\+Packet)
+\end{DoxyCompactItemize}
+\subsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Bluetooth\+Gatt\+Callback \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a17059d94c028813915ae16fda6284ec9}{gatt\+Callback}}
+\end{DoxyCompactItemize}
+\subsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_acc66cd1a480350b141b85f4224b74c90}{T\+AG}} = \char`\"{}Ether\+B\+T\+Adapter\char`\"{}
+\item 
+static U\+U\+ID \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a0af7a7f9d02b088e91fac54d74034b6e}{E\+T\+H\+\_\+service\+U\+U\+ID}} = U\+U\+I\+D.\+from\+String(\char`\"{}19490001-\/5537-\/4\+F5\+E-\/99\+C\+A-\/290\+F4\+F\+B\+F\+F142\char`\"{})
+\item 
+static U\+U\+ID \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_aa6a060920f2be335e5508467f498b90d}{E\+T\+H\+\_\+characteristic\+U\+U\+ID}} = U\+U\+I\+D.\+from\+String(\char`\"{}19490002-\/5537-\/4\+F5\+E-\/99\+C\+A-\/290\+F4\+F\+B\+F\+F142\char`\"{})
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ae18b937682f5cd4e06ffa8efd1d17b46}{scan\+Le\+Device}} (final boolean enable)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a8b6aecd270762cbfcedb491484af469a}{\+\_\+adapter\+Address}}
+\item 
+Context \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a4eec54dc59cbafb592e3cba87ba77fdb}{\+\_\+context}}
+\item 
+\mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info}{Card\+Info}} \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_afd31ea7a4f18d8389f43fc255458188d}{\+\_\+card\+Info}}
+\item 
+int \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a8d77423d04fd47630ca1c2e95b7da95e}{\+\_\+service\+Port}}
+\item 
+Bluetooth\+Adapter \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_aa1ae884af97ed63c824075f256e7d952}{m\+Bluetooth\+Adapter}}
+\item 
+Handler \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a57060d36f1ded886118905a61ba65c0a}{m\+Handler}}
+\item 
+long \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_adc463e0641b6c8439e3fde9691f01482}{\+\_\+scan\+M\+Secs\+Timeout}} = 30000
+\item 
+Bluetooth\+Le\+Scanner \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a694c328c7d2eb05e971e94ff14cb5022}{m\+L\+E\+Scanner}}
+\item 
+Scan\+Settings \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ad0ed7864e2b5f3b374406d8011df287e}{settings}}
+\item 
+List$<$ Scan\+Filter $>$ \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a19a2aab9270f0a9c162c27c59c5c4f81}{filters}}
+\item 
+Bluetooth\+Device \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a2cb82bab4a5d0ae8e01619518115bc31}{periph\+Eth\+Card}}
+\item 
+Bluetooth\+Gatt \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a1961b47ca5197b2b451b9f5fe0b29b2c}{gatt}}
+\item 
+Bluetooth\+Gatt\+Characteristic \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a76230973900a1833af4b9198dbf33ae1}{eth\+Characteristic}}
+\item 
+String \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a953a712d450d67dfc323a9d0b6f41fc6}{eth\+\_\+adv\+Service\+U\+UD}}
+\item 
+Scan\+Callback \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a9b9a03eee47eba66ccd70586afae0c4b}{m\+Scan\+Callback}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 33 of file Ether\+B\+T\+Adapter.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a5fa7afd43aba43e8dc79e831f4ef274d}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a5fa7afd43aba43e8dc79e831f4ef274d}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Card\+Close@{Card\+Close}}
+\index{Card\+Close@{Card\+Close}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Card\+Close()}{CardClose()}}
+{\footnotesize\ttfamily void com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Card\+Close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 97 of file Ether\+B\+T\+Adapter.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a5fa7afd43aba43e8dc79e831f4ef274d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ab497ade3ef9529ee8c6355f53925092f}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ab497ade3ef9529ee8c6355f53925092f}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Card\+Open@{Card\+Open}}
+\index{Card\+Open@{Card\+Open}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Card\+Open()}{CardOpen()}}
+{\footnotesize\ttfamily void com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Card\+Open (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info}{Card\+Info}}}]{card\+Info }\end{DoxyParamCaption})}
+
+
+
+Definition at line 112 of file Ether\+B\+T\+Adapter.\+java.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ab497ade3ef9529ee8c6355f53925092f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a89cbe5764305e090c0f082436b09c9a7}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a89cbe5764305e090c0f082436b09c9a7}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!convert\+From\+Integer@{convert\+From\+Integer}}
+\index{convert\+From\+Integer@{convert\+From\+Integer}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{convert\+From\+Integer()}{convertFromInteger()}}
+{\footnotesize\ttfamily U\+U\+ID com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+convert\+From\+Integer (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Definition at line 104 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a21a0fe01522036d0e40372a8423e14aa}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a21a0fe01522036d0e40372a8423e14aa}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Discover@{Discover}}
+\index{Discover@{Discover}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Discover()}{Discover()}}
+{\footnotesize\ttfamily void com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Discover (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 219 of file Ether\+B\+T\+Adapter.\+java.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a21a0fe01522036d0e40372a8423e14aa_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a7af0ffd9265992004a5a0b67a5c7b68b}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a7af0ffd9265992004a5a0b67a5c7b68b}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Get\+Adapter\+Address@{Get\+Adapter\+Address}}
+\index{Get\+Adapter\+Address@{Get\+Adapter\+Address}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Get\+Adapter\+Address()}{GetAdapterAddress()}}
+{\footnotesize\ttfamily String com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Get\+Adapter\+Address (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 64 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a4bc7f98a76ddf71b743daac86f4c5a91}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a4bc7f98a76ddf71b743daac86f4c5a91}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Get\+Interface@{Get\+Interface}}
+\index{Get\+Interface@{Get\+Interface}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Get\+Interface()}{GetInterface()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface}{T\+Interface}} com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Get\+Interface (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 57 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a07666a5fbd2327c57a2aff60e90028cd}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a07666a5fbd2327c57a2aff60e90028cd}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Init@{Init}}
+\index{Init@{Init}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Init (\begin{DoxyParamCaption}\item[{int}]{service\+Port,  }\item[{long}]{secs\+Timeout,  }\item[{boolean}]{allow\+Duplicates,  }\item[{boolean}]{stop\+Scan\+On\+Write,  }\item[{Context}]{context }\end{DoxyParamCaption})}
+
+
+
+Definition at line 201 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ae18b937682f5cd4e06ffa8efd1d17b46}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ae18b937682f5cd4e06ffa8efd1d17b46}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!scan\+Le\+Device@{scan\+Le\+Device}}
+\index{scan\+Le\+Device@{scan\+Le\+Device}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{scan\+Le\+Device()}{scanLeDevice()}}
+{\footnotesize\ttfamily void com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+scan\+Le\+Device (\begin{DoxyParamCaption}\item[{final boolean}]{enable }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 76 of file Ether\+B\+T\+Adapter.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ae18b937682f5cd4e06ffa8efd1d17b46_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a80aaeb9d8c44f40235533814db1b75e1}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a80aaeb9d8c44f40235533814db1b75e1}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Set\+Adapter\+Address@{Set\+Adapter\+Address}}
+\index{Set\+Adapter\+Address@{Set\+Adapter\+Address}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Set\+Adapter\+Address()}{SetAdapterAddress()}}
+{\footnotesize\ttfamily void com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Set\+Adapter\+Address (\begin{DoxyParamCaption}\item[{String}]{adapter\+Address }\end{DoxyParamCaption})}
+
+
+
+Definition at line 69 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_afb99b565d023488ead67d41e7615b9b8}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_afb99b565d023488ead67d41e7615b9b8}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Stop\+Discovery@{Stop\+Discovery}}
+\index{Stop\+Discovery@{Stop\+Discovery}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Stop\+Discovery()}{StopDiscovery()}}
+{\footnotesize\ttfamily void com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Stop\+Discovery (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 73 of file Ether\+B\+T\+Adapter.\+java.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_afb99b565d023488ead67d41e7615b9b8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ae1cc07da30ac57caf5891ae7d1b0268d}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ae1cc07da30ac57caf5891ae7d1b0268d}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!Write\+To\+Card@{Write\+To\+Card}}
+\index{Write\+To\+Card@{Write\+To\+Card}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{Write\+To\+Card()}{WriteToCard()}}
+{\footnotesize\ttfamily void com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+Write\+To\+Card (\begin{DoxyParamCaption}\item[{byte \mbox{[}$\,$\mbox{]}}]{transport\+Packet }\end{DoxyParamCaption})}
+
+
+
+Definition at line 240 of file Ether\+B\+T\+Adapter.\+java.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a8b6aecd270762cbfcedb491484af469a}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a8b6aecd270762cbfcedb491484af469a}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!\+\_\+adapter\+Address@{\+\_\+adapter\+Address}}
+\index{\+\_\+adapter\+Address@{\+\_\+adapter\+Address}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{\+\_\+adapter\+Address}{\_adapterAddress}}
+{\footnotesize\ttfamily String com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+\_\+adapter\+Address\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 39 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_afd31ea7a4f18d8389f43fc255458188d}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_afd31ea7a4f18d8389f43fc255458188d}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!\+\_\+card\+Info@{\+\_\+card\+Info}}
+\index{\+\_\+card\+Info@{\+\_\+card\+Info}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{\+\_\+card\+Info}{\_cardInfo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info}{Card\+Info}} com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+\_\+card\+Info\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 41 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a4eec54dc59cbafb592e3cba87ba77fdb}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a4eec54dc59cbafb592e3cba87ba77fdb}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!\+\_\+context@{\+\_\+context}}
+\index{\+\_\+context@{\+\_\+context}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{\+\_\+context}{\_context}}
+{\footnotesize\ttfamily Context com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+\_\+context\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 40 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_adc463e0641b6c8439e3fde9691f01482}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_adc463e0641b6c8439e3fde9691f01482}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!\+\_\+scan\+M\+Secs\+Timeout@{\+\_\+scan\+M\+Secs\+Timeout}}
+\index{\+\_\+scan\+M\+Secs\+Timeout@{\+\_\+scan\+M\+Secs\+Timeout}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{\+\_\+scan\+M\+Secs\+Timeout}{\_scanMSecsTimeout}}
+{\footnotesize\ttfamily long com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+\_\+scan\+M\+Secs\+Timeout = 30000\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 46 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a8d77423d04fd47630ca1c2e95b7da95e}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a8d77423d04fd47630ca1c2e95b7da95e}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!\+\_\+service\+Port@{\+\_\+service\+Port}}
+\index{\+\_\+service\+Port@{\+\_\+service\+Port}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{\+\_\+service\+Port}{\_servicePort}}
+{\footnotesize\ttfamily int com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+\_\+service\+Port\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 42 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a953a712d450d67dfc323a9d0b6f41fc6}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a953a712d450d67dfc323a9d0b6f41fc6}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!eth\+\_\+adv\+Service\+U\+UD@{eth\+\_\+adv\+Service\+U\+UD}}
+\index{eth\+\_\+adv\+Service\+U\+UD@{eth\+\_\+adv\+Service\+U\+UD}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{eth\+\_\+adv\+Service\+U\+UD}{eth\_advServiceUUD}}
+{\footnotesize\ttfamily String com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+eth\+\_\+adv\+Service\+U\+UD\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 54 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_aa6a060920f2be335e5508467f498b90d}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_aa6a060920f2be335e5508467f498b90d}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!E\+T\+H\+\_\+characteristic\+U\+U\+ID@{E\+T\+H\+\_\+characteristic\+U\+U\+ID}}
+\index{E\+T\+H\+\_\+characteristic\+U\+U\+ID@{E\+T\+H\+\_\+characteristic\+U\+U\+ID}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{E\+T\+H\+\_\+characteristic\+U\+U\+ID}{ETH\_characteristicUUID}}
+{\footnotesize\ttfamily U\+U\+ID com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+E\+T\+H\+\_\+characteristic\+U\+U\+ID = U\+U\+I\+D.\+from\+String(\char`\"{}19490002-\/5537-\/4\+F5\+E-\/99\+C\+A-\/290\+F4\+F\+B\+F\+F142\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Definition at line 37 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a0af7a7f9d02b088e91fac54d74034b6e}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a0af7a7f9d02b088e91fac54d74034b6e}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!E\+T\+H\+\_\+service\+U\+U\+ID@{E\+T\+H\+\_\+service\+U\+U\+ID}}
+\index{E\+T\+H\+\_\+service\+U\+U\+ID@{E\+T\+H\+\_\+service\+U\+U\+ID}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{E\+T\+H\+\_\+service\+U\+U\+ID}{ETH\_serviceUUID}}
+{\footnotesize\ttfamily U\+U\+ID com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+E\+T\+H\+\_\+service\+U\+U\+ID = U\+U\+I\+D.\+from\+String(\char`\"{}19490001-\/5537-\/4\+F5\+E-\/99\+C\+A-\/290\+F4\+F\+B\+F\+F142\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Definition at line 36 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a76230973900a1833af4b9198dbf33ae1}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a76230973900a1833af4b9198dbf33ae1}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!eth\+Characteristic@{eth\+Characteristic}}
+\index{eth\+Characteristic@{eth\+Characteristic}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{eth\+Characteristic}{ethCharacteristic}}
+{\footnotesize\ttfamily Bluetooth\+Gatt\+Characteristic com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+eth\+Characteristic\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 52 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a19a2aab9270f0a9c162c27c59c5c4f81}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a19a2aab9270f0a9c162c27c59c5c4f81}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!filters@{filters}}
+\index{filters@{filters}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{filters}{filters}}
+{\footnotesize\ttfamily List$<$Scan\+Filter$>$ com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+filters\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 49 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a1961b47ca5197b2b451b9f5fe0b29b2c}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a1961b47ca5197b2b451b9f5fe0b29b2c}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!gatt@{gatt}}
+\index{gatt@{gatt}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{gatt}{gatt}}
+{\footnotesize\ttfamily Bluetooth\+Gatt com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+gatt\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 51 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a17059d94c028813915ae16fda6284ec9}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a17059d94c028813915ae16fda6284ec9}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!gatt\+Callback@{gatt\+Callback}}
+\index{gatt\+Callback@{gatt\+Callback}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{gatt\+Callback}{gattCallback}}
+{\footnotesize\ttfamily Bluetooth\+Gatt\+Callback com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+gatt\+Callback\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 121 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_aa1ae884af97ed63c824075f256e7d952}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_aa1ae884af97ed63c824075f256e7d952}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!m\+Bluetooth\+Adapter@{m\+Bluetooth\+Adapter}}
+\index{m\+Bluetooth\+Adapter@{m\+Bluetooth\+Adapter}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{m\+Bluetooth\+Adapter}{mBluetoothAdapter}}
+{\footnotesize\ttfamily Bluetooth\+Adapter com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+m\+Bluetooth\+Adapter\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 44 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a57060d36f1ded886118905a61ba65c0a}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a57060d36f1ded886118905a61ba65c0a}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!m\+Handler@{m\+Handler}}
+\index{m\+Handler@{m\+Handler}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{m\+Handler}{mHandler}}
+{\footnotesize\ttfamily Handler com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+m\+Handler\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 45 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a694c328c7d2eb05e971e94ff14cb5022}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a694c328c7d2eb05e971e94ff14cb5022}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!m\+L\+E\+Scanner@{m\+L\+E\+Scanner}}
+\index{m\+L\+E\+Scanner@{m\+L\+E\+Scanner}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{m\+L\+E\+Scanner}{mLEScanner}}
+{\footnotesize\ttfamily Bluetooth\+Le\+Scanner com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+m\+L\+E\+Scanner\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 47 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a9b9a03eee47eba66ccd70586afae0c4b}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a9b9a03eee47eba66ccd70586afae0c4b}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!m\+Scan\+Callback@{m\+Scan\+Callback}}
+\index{m\+Scan\+Callback@{m\+Scan\+Callback}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{m\+Scan\+Callback}{mScanCallback}}
+{\footnotesize\ttfamily Scan\+Callback com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+m\+Scan\+Callback\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 247 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a2cb82bab4a5d0ae8e01619518115bc31}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_a2cb82bab4a5d0ae8e01619518115bc31}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!periph\+Eth\+Card@{periph\+Eth\+Card}}
+\index{periph\+Eth\+Card@{periph\+Eth\+Card}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{periph\+Eth\+Card}{periphEthCard}}
+{\footnotesize\ttfamily Bluetooth\+Device com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+periph\+Eth\+Card\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 50 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ad0ed7864e2b5f3b374406d8011df287e}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_ad0ed7864e2b5f3b374406d8011df287e}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!settings@{settings}}
+\index{settings@{settings}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{settings}{settings}}
+{\footnotesize\ttfamily Scan\+Settings com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+settings\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 48 of file Ether\+B\+T\+Adapter.\+java.
+
+\mbox{\Hypertarget{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_acc66cd1a480350b141b85f4224b74c90}\label{classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_acc66cd1a480350b141b85f4224b74c90}} 
+\index{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}!T\+AG@{T\+AG}}
+\index{T\+AG@{T\+AG}!com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter@{com\+::ethernom\+::android\+::etherapi\+::link\+Layer\+::\+Ether\+B\+T\+Adapter}}
+\subsubsection{\texorpdfstring{T\+AG}{TAG}}
+{\footnotesize\ttfamily String com.\+ethernom.\+android.\+etherapi.\+link\+Layer.\+Ether\+B\+T\+Adapter.\+T\+AG = \char`\"{}Ether\+B\+T\+Adapter\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Definition at line 34 of file Ether\+B\+T\+Adapter.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Lyn/tmp/ethernom-\/api-\/master\+\_\+10-\/31-\/19/android/src/main/java/com/ethernom/android/etherapi/link\+Layer/\mbox{\hyperlink{_ether_b_t_adapter_8java}{Ether\+B\+T\+Adapter.\+java}}\end{DoxyCompactItemize}

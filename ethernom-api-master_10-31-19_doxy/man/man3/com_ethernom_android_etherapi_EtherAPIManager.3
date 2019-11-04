@@ -1,0 +1,253 @@
+.TH "com.ethernom.android.etherapi.EtherAPIManager" 3 "Fri Nov 1 2019" "EtherAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.ethernom.android.etherapi.EtherAPIManager
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits ReactContextBaseJavaModule\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "ReactApplicationContext \fBgetReactContext\fP ()"
+.br
+.ti -1c
+.RI "\fBEtherAPIManager\fP (ReactApplicationContext \fBreactContext\fP)"
+.br
+.ti -1c
+.RI "String \fBgetName\fP ()"
+.br
+.ti -1c
+.RI "void \fBonActivityResult\fP (int requestCode, int resultCode, Intent data)"
+.br
+.ti -1c
+.RI "void \fB_InitAPI\fP (final String adapterConnectionString, int servicePort, int secsTimeout, boolean allowDuplicates, boolean stopScanOnWrite, final Callback callback)"
+.br
+.ti -1c
+.RI "void \fB_Select\fP (Integer instanceHandle, String deviceID, String deviceName, final Callback callback)"
+.br
+.ti -1c
+.RI "void \fB_WriteJSON\fP (Integer instanceHandle, String json, final String outPutJSONDef, final Callback callback)"
+.br
+.ti -1c
+.RI "void \fB_CardClose\fP (Integer instanceHandle, final Callback callback)"
+.br
+.ti -1c
+.RI "void \fB_onCardDisconnected\fP (Integer instanceHandle, final String callbackEventName)"
+.br
+.ti -1c
+.RI "void \fB_SubscribeToUnsolictedEvents\fP (Integer instanceHandle, final String outPutJSONDef, final String callbackEventName)"
+.br
+.ti -1c
+.RI "void \fB_UnSubscribeToUnsolictedEvents\fP (Integer instanceHandle, final String callbackEventName)"
+.br
+.ti -1c
+.RI "void \fB_StopDiscovery\fP (Integer instanceHandle)"
+.br
+.ti -1c
+.RI "void \fB_DiscoverDevices\fP (Integer instanceHandle, final String callbackEventName)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final String \fBTAG\fP = 'EtherAPIManager'"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "List< Byte > \fBGetEthernomTypeValue\fP (JSONObject jObj, int encoding)"
+.br
+.ti -1c
+.RI "List< Byte > \fBAddToPayload\fP (JSONObject jObj, List< Byte >currentPayload)"
+.br
+.ti -1c
+.RI "String \fBparseToOutputJSON\fP (byte[] payload, String outputJSONDef)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "HashMap< Integer, \fBEtherAPI\fP > \fBetherApiInstances\fP = new HashMap<Integer,\fBEtherAPI\fP>()"
+.br
+.ti -1c
+.RI "Context \fB_context\fP"
+.br
+.ti -1c
+.RI "ReactApplicationContext \fBreactContext\fP"
+.br
+.in -1c
+.SS "Static Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "static Integer \fBinstanceCount\fP = 0"
+.br
+.ti -1c
+.RI "static int \fBETH_STRING_AS_UNICODE\fP = 0x01"
+.br
+.ti -1c
+.RI "static int \fBETH_STRING_AS_ASUTF8\fP = 0x02"
+.br
+.ti -1c
+.RI "static int \fBETH_INT_AS_BYTE\fP = 0x03"
+.br
+.ti -1c
+.RI "static int \fBETH_INT_AS_2BYTE\fP = 0x04"
+.br
+.ti -1c
+.RI "static int \fBETH_UNICODESTRING\fP = 0x11"
+.br
+.ti -1c
+.RI "static int \fBETH_UTF8STRING\fP = 0x12"
+.br
+.ti -1c
+.RI "static int \fBETH_BYTE\fP = 0x13"
+.br
+.ti -1c
+.RI "static int \fBETH_2BYTE\fP = 0x14"
+.br
+.ti -1c
+.RI "static int \fBETH_PAYLOAD\fP = 0x15"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 31 of file EtherAPIManager\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.EtherAPIManager (ReactApplicationContext reactContext)"
+
+.PP
+Definition at line 46 of file EtherAPIManager\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._CardClose (Integer instanceHandle, final Callback callback)"
+
+.PP
+Definition at line 300 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._DiscoverDevices (Integer instanceHandle, final String callbackEventName)"
+
+.PP
+Definition at line 372 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._InitAPI (final String adapterConnectionString, int servicePort, int secsTimeout, boolean allowDuplicates, boolean stopScanOnWrite, final Callback callback)"
+
+.PP
+Definition at line 65 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._onCardDisconnected (Integer instanceHandle, final String callbackEventName)"
+
+.PP
+Definition at line 319 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._Select (Integer instanceHandle, String deviceID, String deviceName, final Callback callback)"
+
+.PP
+Definition at line 75 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._StopDiscovery (Integer instanceHandle)"
+
+.PP
+Definition at line 364 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._SubscribeToUnsolictedEvents (Integer instanceHandle, final String outPutJSONDef, final String callbackEventName)"
+
+.PP
+Definition at line 336 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._UnSubscribeToUnsolictedEvents (Integer instanceHandle, final String callbackEventName)"
+
+.PP
+Definition at line 356 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._WriteJSON (Integer instanceHandle, String json, final String outPutJSONDef, final Callback callback)"
+
+.PP
+Definition at line 264 of file EtherAPIManager\&.java\&.
+.SS "List<Byte> com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.AddToPayload (JSONObject jObj, List< Byte > currentPayload)\fC [private]\fP"
+
+.PP
+Definition at line 146 of file EtherAPIManager\&.java\&.
+.SS "List<Byte> com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.GetEthernomTypeValue (JSONObject jObj, int encoding)\fC [private]\fP"
+
+.PP
+Definition at line 112 of file EtherAPIManager\&.java\&.
+.SS "String com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.getName ()"
+
+.PP
+Definition at line 55 of file EtherAPIManager\&.java\&.
+.SS "ReactApplicationContext com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.getReactContext ()"
+
+.PP
+Definition at line 42 of file EtherAPIManager\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.onActivityResult (int requestCode, int resultCode, Intent data)"
+
+.PP
+Definition at line 59 of file EtherAPIManager\&.java\&.
+.SS "String com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.parseToOutputJSON (byte [] payload, String outputJSONDef)\fC [private]\fP"
+
+.PP
+Definition at line 205 of file EtherAPIManager\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "Context com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&._context\fC [private]\fP"
+
+.PP
+Definition at line 39 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_2BYTE = 0x14\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 108 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_BYTE = 0x13\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 107 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_INT_AS_2BYTE = 0x04\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 103 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_INT_AS_BYTE = 0x03\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 102 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_PAYLOAD = 0x15\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 109 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_STRING_AS_ASUTF8 = 0x02\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 101 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_STRING_AS_UNICODE = 0x01\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 100 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_UNICODESTRING = 0x11\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 105 of file EtherAPIManager\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.ETH_UTF8STRING = 0x12\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 106 of file EtherAPIManager\&.java\&.
+.SS "HashMap<Integer,\fBEtherAPI\fP> com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.etherApiInstances = new HashMap<Integer,\fBEtherAPI\fP>()\fC [private]\fP"
+
+.PP
+Definition at line 36 of file EtherAPIManager\&.java\&.
+.SS "Integer com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.instanceCount = 0\fC [static]\fP, \fC [private]\fP"
+
+.PP
+Definition at line 37 of file EtherAPIManager\&.java\&.
+.SS "ReactApplicationContext com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.reactContext\fC [private]\fP"
+
+.PP
+Definition at line 40 of file EtherAPIManager\&.java\&.
+.SS "final String com\&.ethernom\&.android\&.etherapi\&.EtherAPIManager\&.TAG = 'EtherAPIManager'\fC [static]\fP"
+
+.PP
+Definition at line 33 of file EtherAPIManager\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EtherAPI from the source code\&.

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils" kind="class" language="Java" prot="public">
+    <compoundname>com::ethernom::android::etherapi::Utils</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1acb76bf0189f4655b3405298263a1e1f2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte []</type>
+        <definition>static byte [] com.ethernom.android.etherapi.Utils.BytetobyteArray</definition>
+        <argsstring>(Byte [] bytes)</argsstring>
+        <name>BytetobyteArray</name>
+        <param>
+          <type>Byte []</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" line="10" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" bodystart="10" bodyend="16"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1ac427fa54412d242b18a243a1e630ed0f" compoundref="_ether_a_p_i_manager_8java" startline="264" endline="297">com.ethernom.android.etherapi.EtherAPIManager._WriteJSON</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a9a9518eff31b31c6a2b3d432a4f40d0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte []</type>
+        <definition>static byte [] com.ethernom.android.etherapi.Utils.ByteListtobyteArray</definition>
+        <argsstring>(List&lt; Byte &gt; in)</argsstring>
+        <name>ByteListtobyteArray</name>
+        <param>
+          <type>List&lt; Byte &gt;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" line="18" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" bodystart="18" bodyend="25"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a6c1c984afa4e13272013e7062177cd24" compoundref="_ether_a_p_i_manager_8java" startline="205" endline="260">com.ethernom.android.etherapi.EtherAPIManager.parseToOutputJSON</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a7fdfdf6496150b6b9b12ed214796f84a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Byte &gt;</type>
+        <definition>static List&lt;Byte&gt; com.ethernom.android.etherapi.Utils.GetDelimitedString</definition>
+        <argsstring>(String data)</argsstring>
+        <name>GetDelimitedString</name>
+        <param>
+          <type>String</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" line="27" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" bodystart="27" bodyend="47"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1ab888c8e041fe1ed3e6aabf931aa2cb57" compoundref="_ether_a_p_i_manager_8java" startline="112" endline="144">com.ethernom.android.etherapi.EtherAPIManager.GetEthernomTypeValue</referencedby>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1aea87690e440c3985866b3e9a4340c930" compoundref="_ether_a_p_i_manager_8java" startline="146" endline="202">com.ethernom.android.etherapi.EtherAPIManager.AddToPayload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a5ba18811e4d78758336b140c58f2683f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Byte &gt;</type>
+        <definition>static List&lt;Byte&gt; com.ethernom.android.etherapi.Utils.GetEndedString</definition>
+        <argsstring>(String data)</argsstring>
+        <name>GetEndedString</name>
+        <param>
+          <type>String</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" line="49" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" bodystart="49" bodyend="69"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1aea87690e440c3985866b3e9a4340c930" compoundref="_ether_a_p_i_manager_8java" startline="146" endline="202">com.ethernom.android.etherapi.EtherAPIManager.AddToPayload</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" line="9" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/Utils.java" bodystart="9" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a9a9518eff31b31c6a2b3d432a4f40d0a" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::Utils</scope><name>ByteListtobyteArray</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1acb76bf0189f4655b3405298263a1e1f2" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::Utils</scope><name>BytetobyteArray</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a7fdfdf6496150b6b9b12ed214796f84a" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::Utils</scope><name>GetDelimitedString</name></member>
+      <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a5ba18811e4d78758336b140c58f2683f" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::Utils</scope><name>GetEndedString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

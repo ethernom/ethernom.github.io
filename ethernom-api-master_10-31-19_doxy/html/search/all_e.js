@@ -1,0 +1,17 @@
+var searchData=
+[
+  ['scan_5fforever',['SCAN_FOREVER',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter.html#a385005a3b6b38c91c05d4dfa00ce85a8',1,'com::ethernom::android::etherapi::linkLayer::EtherCommAdapter']]],
+  ['scanledevice',['scanLeDevice',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter.html#ae18b937682f5cd4e06ffa8efd1d17b46',1,'com::ethernom::android::etherapi::linkLayer::EtherBTAdapter']]],
+  ['select',['Select',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i.html#a12e73d4fe631c9817166a1a16ee05949',1,'com::ethernom::android::etherapi::EtherAPI']]],
+  ['selectlistener',['SelectListener',['../interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_select_listener.html',1,'com::ethernom::android::etherapi']]],
+  ['selectlistener_2ejava',['SelectListener.java',['../_select_listener_8java.html',1,'']]],
+  ['serviceeventlistener',['ServiceEventListener',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1_service_event_listener.html',1,'com::ethernom::android::etherapi']]],
+  ['serviceeventlistener_2ejava',['ServiceEventListener.java',['../_service_event_listener_8java.html',1,'']]],
+  ['setadapteraddress',['SetAdapterAddress',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter.html#a80aaeb9d8c44f40235533814db1b75e1',1,'com.ethernom.android.etherapi.linkLayer.EtherBTAdapter.SetAdapterAddress()'],['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter.html#a1015540b8402955344b81fd14b40c316',1,'com.ethernom.android.etherapi.linkLayer.EtherCommAdapter.SetAdapterAddress()']]],
+  ['setcardeventlistener',['SetCardEventListener',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter.html#a1f7f6961c42491f67d7fd9e7c187340c',1,'com::ethernom::android::etherapi::linkLayer::EtherCommAdapter']]],
+  ['setdiscoverserviceeventlistener',['SetDiscoverServiceEventListener',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter.html#a57af184b11f4ccd518e6abcea71438fd',1,'com::ethernom::android::etherapi::linkLayer::EtherCommAdapter']]],
+  ['settings',['settings',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter.html#ad0ed7864e2b5f3b374406d8011df287e',1,'com::ethernom::android::etherapi::linkLayer::EtherBTAdapter']]],
+  ['setupcardlisteners',['SetupCardListeners',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i.html#a9785ed6dbf7ce2f95bc22f8aa9908392',1,'com::ethernom::android::etherapi::EtherAPI']]],
+  ['stopdiscovery',['StopDiscovery',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i.html#a66b7c9e5106572b803046d2f6d6016a4',1,'com.ethernom.android.etherapi.EtherAPI.StopDiscovery()'],['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter.html#afb99b565d023488ead67d41e7615b9b8',1,'com.ethernom.android.etherapi.linkLayer.EtherBTAdapter.StopDiscovery()'],['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter.html#acca97182df90976a030684b62c871131',1,'com.ethernom.android.etherapi.linkLayer.EtherCommAdapter.StopDiscovery()']]],
+  ['subscribetounsolictedevents',['SubscribeToUnsolictedEvents',['../classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i.html#a730f9d502afbbb8788aada1bf4ae4381',1,'com::ethernom::android::etherapi::EtherAPI']]]
+];

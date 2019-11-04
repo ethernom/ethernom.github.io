@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_ether_n_f_c_adapter_8java" kind="file" language="Java">
+    <compoundname>EtherNFCAdapter.java</compoundname>
+    <innerclass refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_n_f_c_adapter" prot="public">com::ethernom::android::etherapi::EtherNFCAdapter</innerclass>
+    <innernamespace refid="namespacecom_1_1ethernom_1_1android_1_1etherapi">com::ethernom::android::etherapi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.ethernom.android.etherapi;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_n_f_c_adapter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_n_f_c_adapter" kindref="compound">EtherNFCAdapter</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer/EtherNFCAdapter.java"/>
+  </compounddef>
+</doxygen>

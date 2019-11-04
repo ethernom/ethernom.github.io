@@ -1,0 +1,145 @@
+.TH "com.ethernom.android.etherapi.linkLayer.EtherCommAdapter" 3 "Fri Nov 1 2019" "EtherAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.ethernom.android.etherapi.linkLayer.EtherCommAdapter
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBcom\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherBTAdapter\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "abstract \fBTInterface\fP \fBGetInterface\fP ()"
+.br
+.ti -1c
+.RI "abstract void \fBInit\fP (int servicePort, long secsTimeout, boolean allowDuplicates, boolean stopScanOnWrite, Context context)"
+.br
+.ti -1c
+.RI "abstract String \fBGetAdapterAddress\fP ()"
+.br
+.ti -1c
+.RI "abstract void \fBSetAdapterAddress\fP (String address)"
+.br
+.ti -1c
+.RI "abstract void \fBDiscover\fP ()"
+.br
+.ti -1c
+.RI "abstract void \fBStopDiscovery\fP ()"
+.br
+.ti -1c
+.RI "abstract void \fBCardOpen\fP (\fBCardInfo\fP cardInfo)"
+.br
+.ti -1c
+.RI "abstract void \fBCardClose\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetCardEventListener\fP (\fBCardEventListener\fP listener)"
+.br
+.ti -1c
+.RI "void \fBSetDiscoverServiceEventListener\fP (\fBDiscoverServiceListener\fP listener)"
+.br
+.ti -1c
+.RI "abstract void \fBWriteToCard\fP (byte [] buffer)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBCardEventListener\fP \fBCardEventListener\fP = null"
+.br
+.ti -1c
+.RI "\fBDiscoverServiceListener\fP \fBDiscoverServiceEventListener\fP = null"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBSCAN_FOREVER\fP = \-1"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "boolean \fB_scanAllowDuplicates\fP"
+.br
+.ti -1c
+.RI "long \fB_scanSecsTimeout\fP"
+.br
+.ti -1c
+.RI "ArrayList< \fBCardInfo\fP > \fB_foundCards\fP = null"
+.br
+.ti -1c
+.RI "boolean \fB_scanStopScanOnWrite\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file EtherCommAdapter\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.CardClose ()\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.CardOpen (\fBCardInfo\fP cardInfo)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.Discover ()\fC [abstract]\fP"
+
+.SS "abstract String com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.GetAdapterAddress ()\fC [abstract]\fP"
+
+.SS "abstract \fBTInterface\fP com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.GetInterface ()\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.Init (int servicePort, long secsTimeout, boolean allowDuplicates, boolean stopScanOnWrite, Context context)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.SetAdapterAddress (String address)\fC [abstract]\fP"
+
+.SS "void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.SetCardEventListener (\fBCardEventListener\fP listener)"
+
+.PP
+Definition at line 38 of file EtherCommAdapter\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.SetDiscoverServiceEventListener (\fBDiscoverServiceListener\fP listener)"
+
+.PP
+Definition at line 41 of file EtherCommAdapter\&.java\&.
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.StopDiscovery ()\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.WriteToCard (byte [] buffer)\fC [abstract]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "ArrayList<\fBCardInfo\fP> com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&._foundCards = null\fC [protected]\fP"
+
+.PP
+Definition at line 17 of file EtherCommAdapter\&.java\&.
+.SS "boolean com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&._scanAllowDuplicates\fC [protected]\fP"
+
+.PP
+Definition at line 15 of file EtherCommAdapter\&.java\&.
+.SS "long com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&._scanSecsTimeout\fC [protected]\fP"
+
+.PP
+Definition at line 16 of file EtherCommAdapter\&.java\&.
+.SS "boolean com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&._scanStopScanOnWrite\fC [protected]\fP"
+
+.PP
+Definition at line 18 of file EtherCommAdapter\&.java\&.
+.SS "\fBCardEventListener\fP com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.CardEventListener = null"
+
+.PP
+Definition at line 20 of file EtherCommAdapter\&.java\&.
+.SS "\fBDiscoverServiceListener\fP com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.DiscoverServiceEventListener = null"
+
+.PP
+Definition at line 21 of file EtherCommAdapter\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.EtherCommAdapter\&.SCAN_FOREVER = \-1\fC [static]\fP"
+
+.PP
+Definition at line 14 of file EtherCommAdapter\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EtherAPI from the source code\&.

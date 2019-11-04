@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.14">
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_build_config" kind="class"><name>com::ethernom::android::etherapi::BuildConfig</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_build_config_1acc3611bce9027f49336b01c16575591d" kind="variable"><name>DEBUG</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_build_config_1a4eddf2c386c2cc8fd88cf7ce67a58cd6" kind="variable"><name>APPLICATION_ID</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_build_config_1ac2a5fa9f16dc66fda21b7b1b16b32649" kind="variable"><name>BUILD_TYPE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_build_config_1a359a4aa1ac852751b45e5cb610222c3b" kind="variable"><name>FLAVOR</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_build_config_1ae28c47a3b1f38a64e1c723ad52e967ef" kind="variable"><name>VERSION_CODE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_build_config_1aa4fe60e44ff95044227c168f962627d4" kind="variable"><name>VERSION_NAME</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_card_close_listener" kind="interface"><name>com::ethernom::android::etherapi::CardCloseListener</name>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_card_close_listener_1a6fff42211bd62d755d223e49e509ec63" kind="function"><name>onCardCloseSuccess</name></member>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_card_close_listener_1a3daa3ea800ea1ebb46347376f079e765" kind="function"><name>onCardCloseFail</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener" kind="class"><name>com::ethernom::android::etherapi::linkLayer::CardEventListener</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1ad9fe43a6673d7e2c8f7969129cb26afb" kind="function"><name>onCardOpenSuccess</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a12bc0f6a876f07a7f7223e58bf783f01" kind="function"><name>onCardOpenFail</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a5f86d70cadf3d2d652b67ca2128eeeda" kind="function"><name>onCardClosedSucess</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a76ddf19df7063f490b94449ad8de2b2e" kind="function"><name>onCardClosedFail</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1aba636a8cdbf15d8440b26c66b653b611" kind="function"><name>onCardClosedByCard</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1aa1274186d93227cf6202d32bd6648a42" kind="function"><name>onCardConnectionDropped</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1a25f22cba82893eb625006927a184fc20" kind="function"><name>onWriteToCardSuccess</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1ad2d31c5d9007c510b380e5195e5411da" kind="function"><name>onWriteToCardFail</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1af22ac0f453fa0f726a6490f69b298dd6" kind="function"><name>onReadFromCardSuccess</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_card_event_listener_1afcce05e6e80e339404ad768a8af4bc9c" kind="function"><name>onReadFromCardFail</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info" kind="class"><name>com::ethernom::android::etherapi::CardInfo</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a503aeab1d921778a53c1769abeb559fa" kind="variable"><name>_cardName</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1afa93a69a94c31798c5780c4be71ab86d" kind="variable"><name>_deviceID</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a2bf8528f0d4058a8fbd7d59acbd9d065" kind="function"><name>GetCardName</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1af56039cd0223acddde740b8518b4a454" kind="function"><name>GetDeviceID</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info_1a238bab6cc173acfa24986bfe9be0d5a8" kind="function"><name>CardInfo</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_connection_event_listener" kind="interface"><name>com::ethernom::android::etherapi::ConnectionEventListener</name>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_connection_event_listener_1acc0b5837e4cf7a81b6a3fb958be88067" kind="function"><name>onConnectionDropped</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener" kind="interface"><name>com::ethernom::android::etherapi::DiscoverServiceListener</name>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1af4153d6e21ddccb41644a042c448e400" kind="function"><name>onServiceDiscover</name></member>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1a0d7ab8a900298d299c863ce4b3527b8d" kind="function"><name>onServiceDiscoverFail</name></member>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_discover_service_listener_1af4a5c1f5c82cde22d8ec1effe5a51ff9" kind="function"><name>onServiceDiscoverEnd</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i" kind="class"><name>com::ethernom::android::etherapi::EtherAPI</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a88a61879042281174ee0a959e69be645" kind="variable"><name>TAG</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a1ec445aeb00f2279e790f0095a891184" kind="variable"><name>instanceCount</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a710ea8ed5f8f9be00337e40222b61c1f" kind="variable"><name>_adapter</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a113571675a5e5609c38406b367dd28d5" kind="variable"><name>_thisContext</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a5af3360721f7c9fadd6221855fa3f4f8" kind="variable"><name>transport</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1aa6f9befe15c863aac9e90acb9b0ab387" kind="variable"><name>openServiceCmd</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1accc3f965344597c47dfc72a8df5e8fe3" kind="variable"><name>_selectListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1ac56cb305d48a76b7b286838a54fa07b5" kind="variable"><name>_readListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a1998f4cdc36ec1700e910018cae401ad" kind="variable"><name>_discoverServiceListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a1b0348df6d6a3e23e1bae204e18d5dc1" kind="variable"><name>_cardClosedListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a1ef177f46e8bf77977dfb017591e66db" kind="variable"><name>_unSolicitedEventListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1ab62c134bcd6f59dbf43f1039134995cc" kind="variable"><name>_connectionEventListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1aebc393c58cd578de76684a2ec0c45038" kind="variable"><name>_scanSecsTimeout</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1ae2263ea5984b31836d41847b7d8ddca6" kind="variable"><name>_scanAllowDuplicates</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1ad6d683fc0000af5cf4ab181110f5a270" kind="variable"><name>_scanStopScanOnWrite</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a4eb73235f8638afdb798f4351a885951" kind="variable"><name>thisId</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a9785ed6dbf7ce2f95bc22f8aa9908392" kind="function"><name>SetupCardListeners</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a728fd002f0533c356fe852b83500b419" kind="function"><name>EtherAPI</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a5333200b5c0642e16df1fa76148d158c" kind="function"><name>ClearUnsolicitedEventListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a8586a32236afdebca0f9730412d9e000" kind="function"><name>ClearReadListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a66b7c9e5106572b803046d2f6d6016a4" kind="function"><name>StopDiscovery</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a75a0f23761ba90a058d2df1151e06d2b" kind="function"><name>CardClose</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1af4bf0cd04217e9ffc746a142deefd261" kind="function"><name>OnCardDisconnected</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a730f9d502afbbb8788aada1bf4ae4381" kind="function"><name>SubscribeToUnsolictedEvents</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1af98bcd73ca505716754cfe967a1b65fd" kind="function"><name>DiscoverDevices</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a12e73d4fe631c9817166a1a16ee05949" kind="function"><name>Select</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a00dfeb101d51c8b28b2f11d7bdf5f84c" kind="function"><name>Write</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1aa812a2cc15c8b51c541b128b773c864f" kind="function"><name>Write</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a404cbb6c5364773e3c97e86192e1762d" kind="function"><name>Write</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1abe97e3ee72cd97fb6c210a907e1bfcaa" kind="function"><name>Write</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a397b87cd1ab2b0d151289e39b8b2f16c" kind="function"><name>Write</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a11ed9e46f15a79e2221577a7b1cd68ab" kind="function"><name>Write</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager" kind="class"><name>com::ethernom::android::etherapi::EtherAPIManager</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a7f8b87be936c8707a5307d285c393892" kind="variable"><name>TAG</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1aa98d8974d5e1603aadf95acd406cd09a" kind="variable"><name>etherApiInstances</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a3c3da1f62427e3f1bda96b1d2a69b23d" kind="variable"><name>_context</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a6c6e5a9d5f4aa434d52a6b2ef9d80289" kind="variable"><name>reactContext</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a07fd618749bd7565b993878a314c8c65" kind="variable"><name>instanceCount</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a3a692abdb80ee9086ec1cbaf323220d1" kind="variable"><name>ETH_STRING_AS_UNICODE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a2acb4ad48275de1fdee195acf970ce71" kind="variable"><name>ETH_STRING_AS_ASUTF8</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a33cfa7325aa0e0a7161b552358ce4e15" kind="variable"><name>ETH_INT_AS_BYTE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a86b203bf9bd00748aa1de01be5f228f1" kind="variable"><name>ETH_INT_AS_2BYTE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1ad0ee25f902a56f820887c8657ccaa1f3" kind="variable"><name>ETH_UNICODESTRING</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a468450784f1c0005a73a9fbadfa7abb5" kind="variable"><name>ETH_UTF8STRING</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a72425bc77b8427a0641732cdbca72280" kind="variable"><name>ETH_BYTE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1aa1d1a88aaaabfbb1d1ab96434eccef37" kind="variable"><name>ETH_2BYTE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a9f63dbb00a11c7c759a3b6a0948d224a" kind="variable"><name>ETH_PAYLOAD</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1aa2d1aaff2f99ecea4715ab8742a30e9c" kind="function"><name>getReactContext</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a228a3c45f45682d7ea02dbef9713d641" kind="function"><name>EtherAPIManager</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1afe5d0f60a99c060f1c729be6198d0fed" kind="function"><name>getName</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1ab97b475a2eb9bea1ca622f00cd7875c9" kind="function"><name>onActivityResult</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1ab90db6291ae1fcb113484812b57355da" kind="function"><name>_InitAPI</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1af52a5c37a66de269e947018921f85b4f" kind="function"><name>_Select</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1ac427fa54412d242b18a243a1e630ed0f" kind="function"><name>_WriteJSON</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a362db698578b23502acc6e72caa7e4a6" kind="function"><name>_CardClose</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1ac424b3028b3fc9537096f4af9587179b" kind="function"><name>_onCardDisconnected</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a1a142394e06213d21483ed176cd44bea" kind="function"><name>_SubscribeToUnsolictedEvents</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a713f2b3b4f67a096d81f190e1d27f1e7" kind="function"><name>_UnSubscribeToUnsolictedEvents</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1af562559c5169777efdcb24b604a73a13" kind="function"><name>_StopDiscovery</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a69b7979615788985439523c1ee64662a" kind="function"><name>_DiscoverDevices</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1ab888c8e041fe1ed3e6aabf931aa2cb57" kind="function"><name>GetEthernomTypeValue</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1aea87690e440c3985866b3e9a4340c930" kind="function"><name>AddToPayload</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_manager_1a6c1c984afa4e13272013e7062177cd24" kind="function"><name>parseToOutputJSON</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_package" kind="class"><name>com::ethernom::android::etherapi::EtherAPIPackage</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_package_1aa2eca6b1e370a528c0d9dfda88267351" kind="function"><name>createJSModules</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_package_1a266f89f83302d68b959bf433a4d23ce5" kind="function"><name>createViewManagers</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_package_1afb3f3bc923c08f8b7210e421f956ad5c" kind="function"><name>createNativeModules</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter" kind="class"><name>com::ethernom::android::etherapi::linkLayer::EtherBTAdapter</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1acc66cd1a480350b141b85f4224b74c90" kind="variable"><name>TAG</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a0af7a7f9d02b088e91fac54d74034b6e" kind="variable"><name>ETH_serviceUUID</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1aa6a060920f2be335e5508467f498b90d" kind="variable"><name>ETH_characteristicUUID</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a8b6aecd270762cbfcedb491484af469a" kind="variable"><name>_adapterAddress</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a4eec54dc59cbafb592e3cba87ba77fdb" kind="variable"><name>_context</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1afd31ea7a4f18d8389f43fc255458188d" kind="variable"><name>_cardInfo</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a8d77423d04fd47630ca1c2e95b7da95e" kind="variable"><name>_servicePort</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1aa1ae884af97ed63c824075f256e7d952" kind="variable"><name>mBluetoothAdapter</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a57060d36f1ded886118905a61ba65c0a" kind="variable"><name>mHandler</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1adc463e0641b6c8439e3fde9691f01482" kind="variable"><name>_scanMSecsTimeout</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a694c328c7d2eb05e971e94ff14cb5022" kind="variable"><name>mLEScanner</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1ad0ed7864e2b5f3b374406d8011df287e" kind="variable"><name>settings</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a19a2aab9270f0a9c162c27c59c5c4f81" kind="variable"><name>filters</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a2cb82bab4a5d0ae8e01619518115bc31" kind="variable"><name>periphEthCard</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a1961b47ca5197b2b451b9f5fe0b29b2c" kind="variable"><name>gatt</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a76230973900a1833af4b9198dbf33ae1" kind="variable"><name>ethCharacteristic</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a953a712d450d67dfc323a9d0b6f41fc6" kind="variable"><name>eth_advServiceUUD</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a9b9a03eee47eba66ccd70586afae0c4b" kind="variable"><name>mScanCallback</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a17059d94c028813915ae16fda6284ec9" kind="variable"><name>gattCallback</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a4bc7f98a76ddf71b743daac86f4c5a91" kind="function"><name>GetInterface</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a7af0ffd9265992004a5a0b67a5c7b68b" kind="function"><name>GetAdapterAddress</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a80aaeb9d8c44f40235533814db1b75e1" kind="function"><name>SetAdapterAddress</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1afb99b565d023488ead67d41e7615b9b8" kind="function"><name>StopDiscovery</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a5fa7afd43aba43e8dc79e831f4ef274d" kind="function"><name>CardClose</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a89cbe5764305e090c0f082436b09c9a7" kind="function"><name>convertFromInteger</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1ab497ade3ef9529ee8c6355f53925092f" kind="function"><name>CardOpen</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a07666a5fbd2327c57a2aff60e90028cd" kind="function"><name>Init</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1a21a0fe01522036d0e40372a8423e14aa" kind="function"><name>Discover</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1ae1cc07da30ac57caf5891ae7d1b0268d" kind="function"><name>WriteToCard</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter_1ae18b937682f5cd4e06ffa8efd1d17b46" kind="function"><name>scanLeDevice</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter" kind="class"><name>com::ethernom::android::etherapi::linkLayer::EtherCommAdapter</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a385005a3b6b38c91c05d4dfa00ce85a8" kind="variable"><name>SCAN_FOREVER</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a6d602441cd61620f805f75a6c27d6fbb" kind="variable"><name>_scanAllowDuplicates</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1aac695bff29f858871ea2479e9408f15f" kind="variable"><name>_scanSecsTimeout</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1aa3a6866f74b0d830497e9fbca4878b0d" kind="variable"><name>_foundCards</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1af89d9c4a8686b6693c21ed2b9eb981fc" kind="variable"><name>_scanStopScanOnWrite</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1aeee26e6999dbf04455b46d44e24819eb" kind="variable"><name>CardEventListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a1511b1193c1e6ff04024e76d028df868" kind="variable"><name>DiscoverServiceEventListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1ad6522d7705f367397d96990212ce4811" kind="function"><name>GetInterface</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a165ef052bf2b43fd4cfb6d058782dc56" kind="function"><name>Init</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a53f4849bcccd6ef8b4026d94710402c9" kind="function"><name>GetAdapterAddress</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a1015540b8402955344b81fd14b40c316" kind="function"><name>SetAdapterAddress</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a9f7491d2b2afa68da62fafc5d89e360b" kind="function"><name>Discover</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1acca97182df90976a030684b62c871131" kind="function"><name>StopDiscovery</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1af0899f88b78f1072650148201cd8bf1d" kind="function"><name>CardOpen</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a65686a9a7033d40dfc093189eadb602c" kind="function"><name>CardClose</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a1f7f6961c42491f67d7fd9e7c187340c" kind="function"><name>SetCardEventListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1a57af184b11f4ccd518e6abcea71438fd" kind="function"><name>SetDiscoverServiceEventListener</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter_1accd54674d191e15ebf08a7c8e7a8d8e9" kind="function"><name>WriteToCard</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error" kind="class"><name>com::ethernom::android::etherapi::EtherError</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1a9c92acbfd73c9c3ea282a84f500b2846" kind="variable"><name>ETH_SUCCESS</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1af564e222c98a1cbd8b10fc80a53de129" kind="variable"><name>ETH_FAIL</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1a1ef6d10d43480dbe227cd99d03beee95" kind="variable"><name>ETH_DISCOVERY_COMPLETE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1a3835b1cbf18e12c40d2e0a2a98496b44" kind="variable"><name>ETH_SCAN_FOREVER</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1ab60fd24daa6d05436abf55da67c1f1e4" kind="variable"><name>ERR_ETH_CARDSCAN_FAILED</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1ab7243d251235ee1b8e37db8dc22b466c" kind="variable"><name>ERR_ETH_SELECT_DENIED</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1a613242d9be750d1261140b531b3e7be1" kind="variable"><name>ERR_ETH_SELECT_FAILED</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1ab3db2fe3eaf8489812e1a24f60b8bed5" kind="variable"><name>ERR_ETH_DISCONNECTED</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_error_1a8a2dd18c66326e4c6433feab73458111" kind="variable"><name>ERR_ETH_SERVICE_OPEN_DENIED</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_n_f_c_adapter" kind="class"><name>com::ethernom::android::etherapi::EtherNFCAdapter</name>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol" kind="class"><name>com::ethernom::android::etherapi::EtherTransportProtocol</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1aae9d17346d7cae7f3ca5c3962630381e" kind="variable"><name>TAG</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1ab3287e69f9de05b3e50f69ce0194301d" kind="variable"><name>DELIMITER</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1ab82b26050c8d0a5de91ed18dbb48e1f2" kind="variable"><name>_servicePort</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a885a85f94c2374f315a060ae8231d4a7" kind="variable"><name>_messageProtocol</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a8ad30f5f02ad20c0f5864edf2d3e5b88" kind="variable"><name>_cardInfo</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a7494d65a1e0d231e53fd3a203056fe4e" kind="variable"><name>_interfaceKind</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a7c532159826a65673c85b5acb14b2daf" kind="variable"><name>control</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a4582a566e69ab602b9c7701a087e20b7" kind="variable"><name>ETH_HEADER_SIZE</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1add3ef44db6370b856920f8cbef38de43" kind="variable"><name>ETH_PAYLOAD_HEAD</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a3827df3e5ace99c3a818a57c1bba6207" kind="function"><name>EtherTransportProtocol</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1ae590c234c12d110212fd75595235a132" kind="function"><name>GetServicePort</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1adc5e3627f32f692dec5c6b6037fdfe3e" kind="function"><name>GetApplicationData</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a2689adc9963e71cb1f6814c331c6ffa5" kind="function"><name>GetTransportMessageCheckSum</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1ae2c4357c0d53349f62bef02091b1577a" kind="function"><name>getTransportHeader</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1aa7834cb6d0b64e72dc913a5ec1cfcfb8" kind="function"><name>GetPayload</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1ac9ecf8d82db8ea4d83bbbf4face710b0" kind="function"><name>GetPayload</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a324ab9afbb188bc0adca15d454b054ae" kind="function"><name>GetPayload</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1aaada66a44616b616a333c529d5bb04ad" kind="function"><name>GetPayload</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a1220a8f0129eb2b2ae6bb84123dd67f9" kind="function"><name>GetPayload</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1ab057f7bccb0c2bef005a657cc3eef13d" kind="function"><name>GetPayload</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1aee2f3cf832c15ccf711a83a8269224d9" kind="function"><name>getStringRepresentation</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1ab653c54f20447fb1f71e55e56322b4f1" kind="function"><name>CrackTransportPacket</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol_1a0d8874e2def3ca2e1372409470124bae" kind="function"><name>makeTransportPacket</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_read_listener" kind="interface"><name>com::ethernom::android::etherapi::ReadListener</name>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_read_listener_1a404114d62b92d1b844bdbb189711f7e9" kind="function"><name>onReadSuccess</name></member>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_read_listener_1af225192b167912108b242c1f8cd9f7fb" kind="function"><name>onReadFail</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_select_listener" kind="interface"><name>com::ethernom::android::etherapi::SelectListener</name>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_select_listener_1a890afbd52a51aeb70f6859d8ed26a325" kind="function"><name>onSelectSuccess</name></member>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_select_listener_1a7ecaa3bf4d2d13db58fe1a027e2340e6" kind="function"><name>onSelectFail</name></member>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_select_listener_1a79bddd3d84d6e92505d5f22b1567e403" kind="function"><name>onDisconnect</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_service_event_listener" kind="class"><name>com::ethernom::android::etherapi::ServiceEventListener</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_service_event_listener_1a6cf06ce0cc98b8f1737a489b2bc32a1e" kind="function"><name>onWriteSuccess</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_service_event_listener_1acf961399818810ec7d8ff65df313d5c9" kind="function"><name>onWriteFail</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_service_event_listener_1aaf244d10f7065c07544986fd27e7155b" kind="function"><name>onServiceClosedSucess</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_service_event_listener_1a52749598e9ee897eb0c27fccfb7153ef" kind="function"><name>onServiceClosedFail</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_service_event_listener_1a59f8fd8486ac0ef8c5ec1ba0ca69c41b" kind="function"><name>onServiceClosedByService</name></member>
+  </compound>
+  <compound refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface" kind="enum"><name>com::ethernom::android::etherapi::linkLayer::TInterface</name>
+    <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface_1a2297eb79567b413c6a2de512ce053492" kind="variable"><name>USB</name></member>
+    <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface_1af0ce7a49ee9a2b1f7463132b737cf7bd" kind="variable"><name>BLE</name></member>
+    <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface_1a1d3afcc2ab0d00f06926081fda415a19" kind="variable"><name>NFC</name></member>
+    <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface_1a26a5181cd65916337379441edf1eddfa" kind="variable"><name>tInterfaceCode</name></member>
+    <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface_1ac921db8b49b2bc459b567d789215bf0f" kind="function"><name>TInterface</name></member>
+  </compound>
+  <compound refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol" kind="enum"><name>com::ethernom::android::etherapi::TMessageProtocol</name>
+    <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1ad079375f6ebce0743379ff2411c450aa" kind="variable"><name>APP</name></member>
+    <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1af1948ebfe67971c4c4d65b13439e1196" kind="variable"><name>tMessageProtocolCode</name></member>
+    <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1acec7a5bf24beff229fbbb7657ade6988" kind="function"><name>TMessageProtocol</name></member>
+  </compound>
+  <compound refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_un_solicited_event_listener" kind="interface"><name>com::ethernom::android::etherapi::UnSolicitedEventListener</name>
+    <member refid="interfacecom_1_1ethernom_1_1android_1_1etherapi_1_1_un_solicited_event_listener_1aab916d0c4a5c3f72975570d591be758f" kind="function"><name>onUnsolicitedEvent</name></member>
+  </compound>
+  <compound refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils" kind="class"><name>com::ethernom::android::etherapi::Utils</name>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1acb76bf0189f4655b3405298263a1e1f2" kind="function"><name>BytetobyteArray</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a9a9518eff31b31c6a2b3d432a4f40d0a" kind="function"><name>ByteListtobyteArray</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a7fdfdf6496150b6b9b12ed214796f84a" kind="function"><name>GetDelimitedString</name></member>
+    <member refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_utils_1a5ba18811e4d78758336b140c58f2683f" kind="function"><name>GetEndedString</name></member>
+  </compound>
+  <compound refid="namespacecom" kind="namespace"><name>com</name>
+  </compound>
+  <compound refid="namespacecom_1_1ethernom" kind="namespace"><name>com::ethernom</name>
+  </compound>
+  <compound refid="namespacecom_1_1ethernom_1_1android" kind="namespace"><name>com::ethernom::android</name>
+  </compound>
+  <compound refid="namespacecom_1_1ethernom_1_1android_1_1etherapi" kind="namespace"><name>com::ethernom::android::etherapi</name>
+  </compound>
+  <compound refid="namespacecom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer" kind="namespace"><name>com::ethernom::android::etherapi::linkLayer</name>
+  </compound>
+  <compound refid="_build_config_8java" kind="file"><name>BuildConfig.java</name>
+  </compound>
+  <compound refid="_card_close_listener_8java" kind="file"><name>CardCloseListener.java</name>
+  </compound>
+  <compound refid="_card_info_8java" kind="file"><name>CardInfo.java</name>
+  </compound>
+  <compound refid="_connection_event_listener_8java" kind="file"><name>ConnectionEventListener.java</name>
+  </compound>
+  <compound refid="_discover_service_listener_8java" kind="file"><name>DiscoverServiceListener.java</name>
+  </compound>
+  <compound refid="_ether_a_p_i_8java" kind="file"><name>EtherAPI.java</name>
+  </compound>
+  <compound refid="_ether_a_p_i_manager_8java" kind="file"><name>EtherAPIManager.java</name>
+  </compound>
+  <compound refid="_ether_a_p_i_package_8java" kind="file"><name>EtherAPIPackage.java</name>
+  </compound>
+  <compound refid="_ether_error_8java" kind="file"><name>EtherError.java</name>
+  </compound>
+  <compound refid="_ether_transport_protocol_8java" kind="file"><name>EtherTransportProtocol.java</name>
+  </compound>
+  <compound refid="_card_event_listener_8java" kind="file"><name>CardEventListener.java</name>
+  </compound>
+  <compound refid="_ether_b_t_adapter_8java" kind="file"><name>EtherBTAdapter.java</name>
+  </compound>
+  <compound refid="_ether_comm_adapter_8java" kind="file"><name>EtherCommAdapter.java</name>
+  </compound>
+  <compound refid="_ether_n_f_c_adapter_8java" kind="file"><name>EtherNFCAdapter.java</name>
+  </compound>
+  <compound refid="_t_interface_8java" kind="file"><name>TInterface.java</name>
+  </compound>
+  <compound refid="_read_listener_8java" kind="file"><name>ReadListener.java</name>
+  </compound>
+  <compound refid="_select_listener_8java" kind="file"><name>SelectListener.java</name>
+  </compound>
+  <compound refid="_service_event_listener_8java" kind="file"><name>ServiceEventListener.java</name>
+  </compound>
+  <compound refid="_t_message_protocol_8java" kind="file"><name>TMessageProtocol.java</name>
+  </compound>
+  <compound refid="_un_solicited_event_listener_8java" kind="file"><name>UnSolicitedEventListener.java</name>
+  </compound>
+  <compound refid="_utils_8java" kind="file"><name>Utils.java</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="md__c_1__lyn_tmp_ethernom-api-master_10-31-19__r_e_a_d_m_e" kind="page"><name>md_C:_Lyn_tmp_ethernom-api-master_10-31-19_README</name>
+  </compound>
+  <compound refid="dir_2063103ad6f75cf0437b0a9dda3b9ba1" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android</name>
+  </compound>
+  <compound refid="dir_9fd130f42d2d74a1374eac0d42d5cd58" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated/source/buildConfig/debug/com/ethernom/android</name>
+  </compound>
+  <compound refid="dir_658a590f1c21a42b3c5ca1e099715d18" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android</name>
+  </compound>
+  <compound refid="dir_6a3c33bfadfe93c303d38d094c950b26" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build</name>
+  </compound>
+  <compound refid="dir_b3137719d907af9247eaa48a19064db0" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated/source/buildConfig</name>
+  </compound>
+  <compound refid="dir_93f45911beb35f149324979312c244cd" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated/source/buildConfig/debug/com</name>
+  </compound>
+  <compound refid="dir_b7080ee7711164a7782fe08ec0e1e5d3" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com</name>
+  </compound>
+  <compound refid="dir_f99cfaec66951e7c99d4d99be8f56891" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated/source/buildConfig/debug</name>
+  </compound>
+  <compound refid="dir_a514edd7daa0682c1e8386cd6454e173" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi</name>
+  </compound>
+  <compound refid="dir_515245318f38dd1baac9c49c3f22b718" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated/source/buildConfig/debug/com/ethernom/android/etherapi</name>
+  </compound>
+  <compound refid="dir_e3707ae8a0595c210fa9648397bfc91a" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated/source/buildConfig/debug/com/ethernom</name>
+  </compound>
+  <compound refid="dir_bd7bd6907660901ae2706cb87d01a99c" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom</name>
+  </compound>
+  <compound refid="dir_a8d0384832181dd54b7d178ebaed6106" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19</name>
+  </compound>
+  <compound refid="dir_ef4c98dc0d67169ece7a2460456d0ec3" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated</name>
+  </compound>
+  <compound refid="dir_35f9b7a0a21c6812f6c5a5ff3ac4750d" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java</name>
+  </compound>
+  <compound refid="dir_c031a32f5f58337b8ce57eb0e894d11a" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/linkLayer</name>
+  </compound>
+  <compound refid="dir_14dfbb0ad5abf7ae78553ef54238ea7e" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main</name>
+  </compound>
+  <compound refid="dir_147269782a6e80cda35276a5bd5399c2" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/build/generated/source</name>
+  </compound>
+  <compound refid="dir_ac595fa7cc0b8403baa3c1fc155956fc" kind="dir"><name>C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src</name>
+  </compound>
+</doxygenindex>

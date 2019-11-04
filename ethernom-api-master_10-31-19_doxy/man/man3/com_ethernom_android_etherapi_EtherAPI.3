@@ -1,0 +1,265 @@
+.TH "com.ethernom.android.etherapi.EtherAPI" 3 "Fri Nov 1 2019" "EtherAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.ethernom.android.etherapi.EtherAPI
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSetupCardListeners\fP (\fBEtherCommAdapter\fP adapter)"
+.br
+.ti -1c
+.RI "\fBEtherAPI\fP (String adapterConnectionString, byte servicePort, long secsTimeout, boolean allowDuplicates, boolean stopScanOnWrite, Context context)"
+.br
+.ti -1c
+.RI "void \fBClearUnsolicitedEventListener\fP ()"
+.br
+.ti -1c
+.RI "void \fBClearReadListener\fP ()"
+.br
+.ti -1c
+.RI "void \fBStopDiscovery\fP ()"
+.br
+.ti -1c
+.RI "void \fBCardClose\fP (final \fBCardCloseListener\fP closeListener)"
+.br
+.ti -1c
+.RI "void \fBOnCardDisconnected\fP (final \fBConnectionEventListener\fP connectionEventListener)"
+.br
+.ti -1c
+.RI "void \fBSubscribeToUnsolictedEvents\fP (final \fBUnSolicitedEventListener\fP unSolicitedEventListener)"
+.br
+.ti -1c
+.RI "void \fBDiscoverDevices\fP (final \fBDiscoverServiceListener\fP discoverServiceListener)"
+.br
+.ti -1c
+.RI "void \fBSelect\fP (\fBCardInfo\fP cardInfo, final \fBSelectListener\fP selectListener)"
+.br
+.ti -1c
+.RI "void \fBWrite\fP (byte [] buffer, final \fBReadListener\fP readListener)"
+.br
+.ti -1c
+.RI "void \fBWrite\fP (byte cmd, final \fBReadListener\fP readListener)"
+.br
+.ti -1c
+.RI "void \fBWrite\fP (byte cmd, byte [] buffer, final \fBReadListener\fP readListener)"
+.br
+.ti -1c
+.RI "void \fBWrite\fP (byte cmd, String [] buffer, final \fBReadListener\fP readListener)"
+.br
+.ti -1c
+.RI "void \fBWrite\fP (byte cmd, String buffer, final \fBReadListener\fP readListener)"
+.br
+.ti -1c
+.RI "void \fBWrite\fP (String buffer, final \fBReadListener\fP readListener)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBthisId\fP"
+.br
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBEtherCommAdapter\fP \fB_adapter\fP"
+.br
+.ti -1c
+.RI "Context \fB_thisContext\fP"
+.br
+.ti -1c
+.RI "\fBEtherTransportProtocol\fP \fBtransport\fP = null"
+.br
+.ti -1c
+.RI "byte \fBopenServiceCmd\fP = (byte) \-1"
+.br
+.in -1c
+.SS "Static Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "static String \fBTAG\fP = 'EtherAPI'"
+.br
+.ti -1c
+.RI "static int \fBinstanceCount\fP = 0"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBSelectListener\fP \fB_selectListener\fP = null"
+.br
+.ti -1c
+.RI "\fBReadListener\fP \fB_readListener\fP = null"
+.br
+.ti -1c
+.RI "\fBDiscoverServiceListener\fP \fB_discoverServiceListener\fP"
+.br
+.ti -1c
+.RI "\fBCardCloseListener\fP \fB_cardClosedListener\fP"
+.br
+.ti -1c
+.RI "\fBUnSolicitedEventListener\fP \fB_unSolicitedEventListener\fP"
+.br
+.ti -1c
+.RI "\fBConnectionEventListener\fP \fB_connectionEventListener\fP"
+.br
+.ti -1c
+.RI "long \fB_scanSecsTimeout\fP"
+.br
+.ti -1c
+.RI "boolean \fB_scanAllowDuplicates\fP"
+.br
+.ti -1c
+.RI "boolean \fB_scanStopScanOnWrite\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 14 of file EtherAPI\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.EtherAPI (String adapterConnectionString, byte servicePort, long secsTimeout, boolean allowDuplicates, boolean stopScanOnWrite, Context context)"
+
+.PP
+Definition at line 161 of file EtherAPI\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.CardClose (final \fBCardCloseListener\fP closeListener)"
+
+.PP
+Definition at line 188 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.ClearReadListener ()"
+
+.PP
+Definition at line 179 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.ClearUnsolicitedEventListener ()"
+
+.PP
+Definition at line 175 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.DiscoverDevices (final \fBDiscoverServiceListener\fP discoverServiceListener)"
+
+.PP
+Definition at line 203 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.OnCardDisconnected (final \fBConnectionEventListener\fP connectionEventListener)"
+
+.PP
+Definition at line 193 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.Select (\fBCardInfo\fP cardInfo, final \fBSelectListener\fP selectListener)"
+
+.PP
+Definition at line 210 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.SetupCardListeners (\fBEtherCommAdapter\fP adapter)"
+
+.PP
+Definition at line 41 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.StopDiscovery ()"
+
+.PP
+Definition at line 183 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.SubscribeToUnsolictedEvents (final \fBUnSolicitedEventListener\fP unSolicitedEventListener)"
+
+.PP
+Definition at line 197 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.Write (byte [] buffer, final \fBReadListener\fP readListener)"
+
+.PP
+Definition at line 215 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.Write (byte cmd, final \fBReadListener\fP readListener)"
+
+.PP
+Definition at line 223 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.Write (byte cmd, byte [] buffer, final \fBReadListener\fP readListener)"
+
+.PP
+Definition at line 231 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.Write (byte cmd, String [] buffer, final \fBReadListener\fP readListener)"
+
+.PP
+Definition at line 241 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.Write (byte cmd, String buffer, final \fBReadListener\fP readListener)"
+
+.PP
+Definition at line 251 of file EtherAPI\&.java\&.
+.SS "void com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.Write (String buffer, final \fBReadListener\fP readListener)"
+
+.PP
+Definition at line 261 of file EtherAPI\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBEtherCommAdapter\fP com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._adapter\fC [package]\fP"
+
+.PP
+Definition at line 22 of file EtherAPI\&.java\&.
+.SS "\fBCardCloseListener\fP com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._cardClosedListener\fC [private]\fP"
+
+.PP
+Definition at line 30 of file EtherAPI\&.java\&.
+.SS "\fBConnectionEventListener\fP com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._connectionEventListener\fC [private]\fP"
+
+.PP
+Definition at line 32 of file EtherAPI\&.java\&.
+.SS "\fBDiscoverServiceListener\fP com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._discoverServiceListener\fC [private]\fP"
+
+.PP
+Definition at line 29 of file EtherAPI\&.java\&.
+.SS "\fBReadListener\fP com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._readListener = null\fC [private]\fP"
+
+.PP
+Definition at line 28 of file EtherAPI\&.java\&.
+.SS "boolean com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._scanAllowDuplicates\fC [private]\fP"
+
+.PP
+Definition at line 34 of file EtherAPI\&.java\&.
+.SS "long com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._scanSecsTimeout\fC [private]\fP"
+
+.PP
+Definition at line 33 of file EtherAPI\&.java\&.
+.SS "boolean com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._scanStopScanOnWrite\fC [private]\fP"
+
+.PP
+Definition at line 35 of file EtherAPI\&.java\&.
+.SS "\fBSelectListener\fP com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._selectListener = null\fC [private]\fP"
+
+.PP
+Definition at line 27 of file EtherAPI\&.java\&.
+.SS "Context com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._thisContext\fC [package]\fP"
+
+.PP
+Definition at line 23 of file EtherAPI\&.java\&.
+.SS "\fBUnSolicitedEventListener\fP com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&._unSolicitedEventListener\fC [private]\fP"
+
+.PP
+Definition at line 31 of file EtherAPI\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.instanceCount = 0\fC [static]\fP, \fC [package]\fP"
+
+.PP
+Definition at line 17 of file EtherAPI\&.java\&.
+.SS "byte com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.openServiceCmd = (byte) \-1\fC [package]\fP"
+
+.PP
+Definition at line 25 of file EtherAPI\&.java\&.
+.SS "String com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.TAG = 'EtherAPI'\fC [static]\fP, \fC [package]\fP"
+
+.PP
+Definition at line 16 of file EtherAPI\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.thisId"
+
+.PP
+Definition at line 36 of file EtherAPI\&.java\&.
+.SS "\fBEtherTransportProtocol\fP com\&.ethernom\&.android\&.etherapi\&.EtherAPI\&.transport = null\fC [package]\fP"
+
+.PP
+Definition at line 24 of file EtherAPI\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EtherAPI from the source code\&.

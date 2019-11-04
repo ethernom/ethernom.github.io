@@ -1,0 +1,71 @@
+.TH "com.ethernom.android.etherapi.linkLayer.CardEventListener" 3 "Fri Nov 1 2019" "EtherAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.ethernom.android.etherapi.linkLayer.CardEventListener
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "abstract void \fBonCardOpenSuccess\fP (int resultCode)"
+.br
+.ti -1c
+.RI "abstract void \fBonCardOpenFail\fP (int resultCode, int hwSpecificError)"
+.br
+.ti -1c
+.RI "abstract void \fBonCardClosedSucess\fP (int resultCode)"
+.br
+.ti -1c
+.RI "abstract void \fBonCardClosedFail\fP (int resultCode, int hwSpecificError)"
+.br
+.ti -1c
+.RI "abstract void \fBonCardClosedByCard\fP (int resultCode)"
+.br
+.ti -1c
+.RI "abstract void \fBonCardConnectionDropped\fP (int resultCode)"
+.br
+.ti -1c
+.RI "abstract void \fBonWriteToCardSuccess\fP (int resultCode)"
+.br
+.ti -1c
+.RI "abstract void \fBonWriteToCardFail\fP (int resultCode, int hwSpecificError)"
+.br
+.ti -1c
+.RI "abstract void \fBonReadFromCardSuccess\fP (int resultCode, byte[] buffer)"
+.br
+.ti -1c
+.RI "abstract void \fBonReadFromCardFail\fP (int resultCode, int hwSpecificError)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 3 of file CardEventListener\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onCardClosedByCard (int resultCode)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onCardClosedFail (int resultCode, int hwSpecificError)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onCardClosedSucess (int resultCode)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onCardConnectionDropped (int resultCode)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onCardOpenFail (int resultCode, int hwSpecificError)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onCardOpenSuccess (int resultCode)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onReadFromCardFail (int resultCode, int hwSpecificError)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onReadFromCardSuccess (int resultCode, byte [] buffer)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onWriteToCardFail (int resultCode, int hwSpecificError)\fC [abstract]\fP"
+
+.SS "abstract void com\&.ethernom\&.android\&.etherapi\&.linkLayer\&.CardEventListener\&.onWriteToCardSuccess (int resultCode)\fC [abstract]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EtherAPI from the source code\&.

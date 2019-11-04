@@ -1,0 +1,206 @@
+.TH "com.ethernom.android.etherapi.EtherTransportProtocol" 3 "Fri Nov 1 2019" "EtherAPI" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.ethernom.android.etherapi.EtherTransportProtocol
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEtherTransportProtocol\fP (byte servicePort, \fBTInterface\fP interfaceKind, \fBTMessageProtocol\fP messageProtocol)"
+.br
+.ti -1c
+.RI "byte \fBGetServicePort\fP ()"
+.br
+.ti -1c
+.RI "byte [] \fBGetApplicationData\fP (byte [] data)"
+.br
+.ti -1c
+.RI "byte \fBGetTransportMessageCheckSum\fP (byte [] packet)"
+.br
+.ti -1c
+.RI "byte [] \fBgetTransportHeader\fP (int payloadLength)"
+.br
+.ti -1c
+.RI "byte [] \fBGetPayload\fP (int cmd)"
+.br
+.ti -1c
+.RI "byte [] \fBGetPayload\fP (byte cmd, byte [] data)"
+.br
+.ti -1c
+.RI "byte [] \fBGetPayload\fP (String data)"
+.br
+.ti -1c
+.RI "byte [] \fBGetPayload\fP (byte cmd, String data)"
+.br
+.ti -1c
+.RI "byte [] \fBGetPayload\fP (byte [] data)"
+.br
+.ti -1c
+.RI "byte [] \fBGetPayload\fP (int cmd, String [] data)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBETH_HEADER_SIZE\fP = 8"
+.br
+.ti -1c
+.RI "static int \fBETH_PAYLOAD_HEAD\fP = \fBETH_HEADER_SIZE\fP + 1"
+.br
+.in -1c
+.SS "Package Functions"
+
+.in +1c
+.ti -1c
+.RI "String \fBgetStringRepresentation\fP (ArrayList< Character > list)"
+.br
+.in -1c
+.SS "Static Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "static String \fBTAG\fP = 'EtherTransportProtocol'"
+.br
+.ti -1c
+.RI "static int \fBDELIMITER\fP = 31"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< String > \fBCrackTransportPacket\fP (byte [] data)"
+.br
+.ti -1c
+.RI "byte [] \fBmakeTransportPacket\fP (List< Byte > payload)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "byte \fB_servicePort\fP"
+.br
+.ti -1c
+.RI "\fBTMessageProtocol\fP \fB_messageProtocol\fP"
+.br
+.ti -1c
+.RI "\fBCardInfo\fP \fB_cardInfo\fP"
+.br
+.ti -1c
+.RI "\fBTInterface\fP \fB_interfaceKind\fP"
+.br
+.ti -1c
+.RI "byte \fBcontrol\fP = (byte)0x0"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 17 of file EtherTransportProtocol\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.EtherTransportProtocol (byte servicePort, \fBTInterface\fP interfaceKind, \fBTMessageProtocol\fP messageProtocol)"
+
+.PP
+Definition at line 32 of file EtherTransportProtocol\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "ArrayList<String> com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.CrackTransportPacket (byte [] data)\fC [private]\fP"
+
+.PP
+Definition at line 62 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetApplicationData (byte [] data)"
+
+.PP
+Definition at line 49 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetPayload (int cmd)"
+
+.PP
+Definition at line 135 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetPayload (byte cmd, byte [] data)"
+
+.PP
+Definition at line 144 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetPayload (String data)"
+
+.PP
+Definition at line 153 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetPayload (byte cmd, String data)"
+
+.PP
+Definition at line 158 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetPayload (byte [] data)"
+
+.PP
+Definition at line 163 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetPayload (int cmd, String [] data)"
+
+.PP
+Definition at line 173 of file EtherTransportProtocol\&.java\&.
+.SS "byte com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetServicePort ()"
+
+.PP
+Definition at line 37 of file EtherTransportProtocol\&.java\&.
+.SS "String com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.getStringRepresentation (ArrayList< Character > list)\fC [package]\fP"
+
+.PP
+Definition at line 39 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.getTransportHeader (int payloadLength)"
+
+.PP
+Definition at line 98 of file EtherTransportProtocol\&.java\&.
+.SS "byte com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.GetTransportMessageCheckSum (byte [] packet)"
+
+.PP
+Definition at line 86 of file EtherTransportProtocol\&.java\&.
+.SS "byte [] com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.makeTransportPacket (List< Byte > payload)\fC [private]\fP"
+
+.PP
+Definition at line 119 of file EtherTransportProtocol\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBCardInfo\fP com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&._cardInfo\fC [private]\fP"
+
+.PP
+Definition at line 23 of file EtherTransportProtocol\&.java\&.
+.SS "\fBTInterface\fP com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&._interfaceKind\fC [private]\fP"
+
+.PP
+Definition at line 24 of file EtherTransportProtocol\&.java\&.
+.SS "\fBTMessageProtocol\fP com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&._messageProtocol\fC [private]\fP"
+
+.PP
+Definition at line 22 of file EtherTransportProtocol\&.java\&.
+.SS "byte com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&._servicePort\fC [private]\fP"
+
+.PP
+Definition at line 21 of file EtherTransportProtocol\&.java\&.
+.SS "byte com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.control = (byte)0x0\fC [private]\fP"
+
+.PP
+Definition at line 26 of file EtherTransportProtocol\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.DELIMITER = 31\fC [static]\fP, \fC [package]\fP"
+
+.PP
+Definition at line 27 of file EtherTransportProtocol\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.ETH_HEADER_SIZE = 8\fC [static]\fP"
+
+.PP
+Definition at line 28 of file EtherTransportProtocol\&.java\&.
+.SS "int com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.ETH_PAYLOAD_HEAD = \fBETH_HEADER_SIZE\fP + 1\fC [static]\fP"
+
+.PP
+Definition at line 29 of file EtherTransportProtocol\&.java\&.
+.SS "String com\&.ethernom\&.android\&.etherapi\&.EtherTransportProtocol\&.TAG = 'EtherTransportProtocol'\fC [static]\fP, \fC [package]\fP"
+
+.PP
+Definition at line 18 of file EtherTransportProtocol\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for EtherAPI from the source code\&.

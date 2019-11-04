@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol" kind="enum" language="Java" prot="public">
+    <compoundname>com::ethernom::android::etherapi::TMessageProtocol</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1ad079375f6ebce0743379ff2411c450aa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>com.ethernom.android.etherapi.TMessageProtocol.APP</definition>
+        <argsstring></argsstring>
+        <name>APP</name>
+        <initializer>=(0x0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/TMessageProtocol.java" line="4" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/TMessageProtocol.java" bodystart="4" bodyend="-1"/>
+        <referencedby refid="classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_a_p_i_1a728fd002f0533c356fe852b83500b419" compoundref="_ether_a_p_i_8java" startline="161" endline="173">com.ethernom.android.etherapi.EtherAPI.EtherAPI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1af1948ebfe67971c4c4d65b13439e1196" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int com.ethernom.android.etherapi.TMessageProtocol.tMessageProtocolCode</definition>
+        <argsstring></argsstring>
+        <name>tMessageProtocolCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/TMessageProtocol.java" line="6" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/TMessageProtocol.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1acec7a5bf24beff229fbbb7657ade6988" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.ethernom.android.etherapi.TMessageProtocol.TMessageProtocol</definition>
+        <argsstring>(int tMessageProtocolCode)</argsstring>
+        <name>TMessageProtocol</name>
+        <param>
+          <type>int</type>
+          <declname>tMessageProtocolCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/TMessageProtocol.java" line="8" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/TMessageProtocol.java" bodystart="8" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/TMessageProtocol.java" line="3" column="1" bodyfile="C:/Lyn/tmp/ethernom-api-master_10-31-19/android/src/main/java/com/ethernom/android/etherapi/TMessageProtocol.java" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1ad079375f6ebce0743379ff2411c450aa" prot="public" virt="non-virtual"><scope>com::ethernom::android::etherapi::TMessageProtocol</scope><name>APP</name></member>
+      <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1acec7a5bf24beff229fbbb7657ade6988" prot="private" virt="non-virtual"><scope>com::ethernom::android::etherapi::TMessageProtocol</scope><name>TMessageProtocol</name></member>
+      <member refid="enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol_1af1948ebfe67971c4c4d65b13439e1196" prot="private" virt="non-virtual"><scope>com::ethernom::android::etherapi::TMessageProtocol</scope><name>tMessageProtocolCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
