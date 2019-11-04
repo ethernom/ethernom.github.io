@@ -1,5 +1,0 @@
-<map id="com.ethernom.android.etherapi.linkLayer.EtherBTAdapter.scanLeDevice" name="com.ethernom.android.etherapi.linkLayer.EtherBTAdapter.scanLeDevice">
-<area shape="rect" id="node2" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter.html#afb99b565d023488ead67d41e7615b9b8" title="com.ethernom.android.etherapi.link\lLayer.EtherBTAdapter.StopDiscovery" alt="" coords="288,5,525,47"/>
-<area shape="rect" id="node3" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter.html#a5fa7afd43aba43e8dc79e831f4ef274d" title="com.ethernom.android.etherapi.link\lLayer.EtherBTAdapter.CardClose" alt="" coords="294,71,519,112"/>
-<area shape="rect" id="node4" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_b_t_adapter.html#a21a0fe01522036d0e40372a8423e14aa" title="com.ethernom.android.etherapi.link\lLayer.EtherBTAdapter.Discover" alt="" coords="294,136,519,177"/>
-</map>
