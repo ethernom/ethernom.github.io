@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+  background-color: #333;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.mobile-container {
+  margin: auto;
+  color: white;
+  height: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #666;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  float:right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #666;
+  color: white;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label, .instructions {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #00a4d6;
+    display: inline-block;
+	padding: 10px 5%;
+	width: 90%;
+}
+
+.left{
+	float:left;
+}
+
+.none{
+	float:none;
+}
+
+.crop-bottom-menu, .preview-bottom-menu{
+	width: 100%;
+	background-color: #00a4d6;
+	position: fixed;
+	bottom: 0;
+}
+
+.crop-bottom-menu label.btn-ui{
+	text-align: center;
+	width: 33%;
+	padding: 30px 0px;
+}
+
+.preview-bottom-menu label.btn-ui{
+	text-align: center;
+	width: calc(100%/5);
+	padding: 30px 0px;
+}
+
+.slider{
+	position: fixed;
+	bottom: 67px;
+	padding: 15px 5%;
+	background-color: white;
+	color: black;
+	border-radius: 15px;
+	left: 5%;
+	width: 80%;
+	
+	box-shadow: 0 8px 6px -6px black;
+}
+.slider .slider-range-input{
+	width:100%;
+}

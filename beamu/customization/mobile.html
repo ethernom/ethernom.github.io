@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>BeamU - Personalization Picture Review</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Ethernom, Inc.">
+		<meta name="description" content="Your biometric key for safe online access and secure offline data storage. BeamU sets the new gold standard for biometric multi-factor authentication. And it fits in your wallet.">
+		<meta name="keywords" content="BeamU, biometric card, security, multi-factor authentication">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon/favicon.png">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/avicon/apple-touch-icon-114x114.png">
+				
+		<link  href="lib/cropper.css" rel="stylesheet">
+		<link  href="css/mobile-style.css" rel="stylesheet">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/ad8c58c4f8.js"></script>
+		<script src="lib/cropper.js"></script>
+		<script src="lib/floyd-steinberg.js"></script>
+		<script src="lib/glfx.js"></script>
+	</head>
+
+	<body>
+		<div class="mobile-container">
+			<div class="topnav">
+				<div style="padding:14px 0px;" onclick="myFunction()"><img src="img/logo-light.png" height="15px" style="padding-left:20px;"/></div>
+				
+				<div id="myLinks">
+					<a href="../index.html"><i class="fas fa-home"></i>&nbsp;&nbsp;&nbsp;Home</a>
+					<a href="mailto:beamu.customization@ethernom.com"><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;beamu.customization@ethernom.com</a>
+				</div>
+			
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+
+			<div id="main-upload">
+				<div id="upload-crop-top-nav">
+					<label class="fileContainer">
+						<input type="file" name="file-input" id="file-input" class="inputfile selectable" accept="image/*" onchange="readURL(this);" />
+						<label for="file-input">Step 1:&nbsp;&nbsp;&nbsp;<i class="fas fa-file-upload"></i>&nbsp;&nbsp;&nbsp;Choose an image</label>
+					</label>
+				</div>
+				
+				<div style="padding:16px" id="btn-upload">Tap <text style="color: #00a4d6">here</text> to begin...</div>
+			</div>
+			
+			<div id="main-crop">
+				<label class="instructions">Step 2:&nbsp;&nbsp;&nbsp;<i class="fas fa-crop-alt"></i>&nbsp;&nbsp;&nbsp;Crop image</label>
+				<div class="canvas"><img id="preview-crop-pic" /></div>
+				
+				<div class="crop-bottom-menu">
+					<label id="btn-start-over" class="btn-ui left"><i class="fas fa-trash-restore"></i></label>
+					<label id="btn-reset-crop" class="btn-ui left"><i class="fas fa-redo-alt"></i></label>
+					<label id="btn-crop" class="btn-ui left"><i class="fas fa-crop-alt"></i></label>
+				</div>
+			</div>
+
+			<div id="main-preview">
+				<label class="instructions">Step 3:&nbsp;&nbsp;&nbsp;<i class="fas fa-image"></i>&nbsp;&nbsp;&nbsp;Image Adjustment</label>
+			
+				<div class="canvas" style="padding-left:15px">
+					<p>This is what your image will look like on the E-Ink display</p>
+					<img id="preview-cropped-pic-hidden" style="display:none;"/>
+					<canvas id="preview-cropped-pic" style="display:none;"></canvas>
+					<canvas id="preview-dither-pic"></canvas>
+				</div>
+			
+				<div class="preview-bottom-menu">
+					<label id="btn-start-over2" class="btn-ui left"><i class="fas fa-trash-restore"></i></label>
+					<label id="btn-reset-adjustment" class="btn-ui left"><i class="fas fa-redo-alt"></i></label>
+					<label id="btn-brightness" class="btn-ui left"><i class="fas fa-sun"></i></label>
+					<label id="btn-contrast" class="btn-ui left"><i class="fas fa-adjust"></i></label>
+					<label id="btn-save" class="btn-ui left"><i class="fas fa-save"></i></label>
+				</div>
+				
+				<div id="slider-brightness" class="slider">
+					<label for="brightness"><i class="fas fa-sun"></i>&nbsp;&nbsp;&nbsp;Brightness:</label><br />
+					<input id="slider-brightness-input" class="slider-range-input" type="range" name="brightness" min="0" max="200" value="100" data-sizing="%">
+				</div>
+				
+				<div id="slider-contrast" class="slider">
+					<label for="contrast"><i class="fas fa-adjust"></i>&nbsp;&nbsp;&nbsp;Contrast:</label><br />
+					<input id="slider-contrast-input" class="slider-range-input" type="range" name="contrast" min="0" max="200" value="100" data-sizing="%">
+				</div>
+			</div>
+
+
+			<br /><br /><br /><br /><br />
+		</div>
+		<script src="js/mobile.js"></script>
+	</body>
+</html>

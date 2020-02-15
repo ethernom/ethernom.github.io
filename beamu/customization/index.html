@@ -1,0 +1,244 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>BeamU - Customization</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Ethernom, Inc.">
+		<meta name="description" content="Your biometric key for safe online access and secure offline data storage. BeamU sets the new gold standard for biometric multi-factor authentication. And it fits in your wallet.">
+		<meta name="keywords" content="BeamU, biometric card, security, multi-factor authentication">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon/favicon.png">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/avicon/apple-touch-icon-114x114.png">
+		
+		<link  href="lib/cropper.css" rel="stylesheet">
+		<link  href="css/style.css" rel="stylesheet">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="lib/jquery.validate.min.js"></script>
+		
+		<script src="https://kit.fontawesome.com/ad8c58c4f8.js"></script>
+		<script src="lib/cropper.js"></script>
+		<script src="lib/floyd-steinberg.js"></script>
+		<script src="lib/glfx.js"></script>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			/*
+			$(document).ready(function(){
+				if($(window).width() <= 768) {
+					window.location = "mobile.html";
+					return;
+				}
+				
+				if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+					window.location = "mobile.html";
+					return;
+					//location.replace("http://url-to-send-them/iphone.html");
+				}
+			});
+			*/
+		</script>
+	
+		<div id="warning" style="display:none;">
+		<i class="fas fa-frown"></i>&nbsp;&nbsp;&nbsp;Sorry! Please use a device with larger&nbsp;&nbsp;&nbsp;<i class="fas fa-desktop"></i>&nbsp;&nbsp;&nbsp;screen to proceed!
+		</div>
+
+		<header id="top-nav">
+			<ul>
+				<li class="btn-ui selectable"><a href="../index.html"><text><i class="fas fa-home"></i></text></a></li>
+				<li class="nav-logo"><img src="img/logo-light.png"/><text>Customization Preview</text></li>
+				<li class="btn-ui right selectable"><text><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:beamu.customization@ethernom.com">beamu.customization@ethernom.com</a></text></li>
+				<li id="btn-start-over" class="btn-ui right selectable"><text><i class="fas fa-trash-restore"></i>&nbsp;&nbsp;&nbsp;Start Over</text></li>
+					
+				<div style="clear:both;"></div>
+			</ul>
+			<div style="clear:both;"></div>
+		</header>
+		
+		<div style="clear:both;"></div>
+		
+		<main>
+			<div id="main-skin">
+				<label class="title"><i class="fas fa-address-card"></i>&nbsp;&nbsp;&nbsp;Select a card design</label>
+				<div class="card-options">
+					<div style="text-align:center;"><label><text>Options 1:</text><br /><img id="card-options-1" class="card-img selectable" src="img/beamu-card-black.png" /></label></div>
+					<div style="text-align:center;"><label><text>Options 2:</text><br /><img id="card-options-2" class="card-img selectable" src="img/beamu-card-blue.png" /></label></div>
+				</div>
+				<br /><br /><br />
+			</div>
+			
+			<div id="main-text">
+				<label class="title"><i class="fas fa-keyboard"></i>&nbsp;&nbsp;&nbsp;Custom Text Input - Skip if you don't want to have a custom text!</label>
+				<div id="text-body" style="display:inline-block; text-align:center;">
+					<div style="float:left; width: 100%;">
+						<p>This is what your image will look like on the E-Ink display</p>
+						<canvas id="preview-text-pic" style="position:absolute; z-index:91; margin-left:259px; margin-top:28px;"></canvas>
+						<canvas id="preview-text-scale-pic" style="position:absolute; z-index:91; margin-left:259px; margin-top:139.5px;"></canvas>
+						<img id="card-selection1" src="img/beamu-card-black-empty.png" style="position:relative; box-shadow: 0 8px 6px -6px black; border-radius: 20px;"/>
+					</div>
+				</div>
+				
+				<div id="text-input-ui">
+					<label><i class="fas fa-keyboard"></i>&nbsp;&nbsp;&nbsp;Max of 10 Characters:</label><br />
+					<input type="text" onkeyup="setTextInput()" name="text-input" id="text-input" placeholder="Type here..." maxlength="10" autocomplete='off'/>
+				</div>
+				
+				<div><label id="btn-back1" class="btn-ui selectable"><i class="fas fa-arrow-alt-circle-left"></i>&nbsp;&nbsp;&nbsp;Back</label></div>
+				<div><label id="btn-cutom-text-enter" class="btn-ui selectable"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;&nbsp;&nbsp;Skip</label></div>
+				
+				<div id="text-bottom-nav">
+					<label id="btn-text-input" class="btn-ui selectable"><i class="fas fa-keyboard"></i>&nbsp;&nbsp;&nbsp;Custom Text Input</label>
+					<label id="btn-clear-text-input" class="btn-ui selectable"><i class="fas fa-eraser"></i>&nbsp;&nbsp;&nbsp;Clear Custom Text</label>
+				</div>
+			</div>
+			
+			<div id="main-upload-crop">
+				<label class="title" id="image-step"><i class="fas fa-crop-alt"></i>&nbsp;&nbsp;&nbsp;Custom Image - Upload an image or skip if you don't want to have a custom image!</text></label>
+				<div id="upload-crop-top-nav">
+					<label class="fileContainer">
+						<input type="file" name="file-input" id="file-input" class="inputfile selectable" accept="image/*" onchange="readURL(this);" />
+						<label for="file-input"><i class="fas fa-file-upload"></i>&nbsp;&nbsp;&nbsp;Choose an image</label>
+					</label>
+				</div>
+				
+				<div id="upload-crop-body">	
+					<div class="canvas">
+						<img id="preview-crop-pic" />
+					</div>
+				</div>
+				
+				<div><label id="btn-back2" class="btn-ui selectable"><i class="fas fa-arrow-alt-circle-left"></i>&nbsp;&nbsp;&nbsp;Back</label></div>
+				<div><label  id="btn-skip-upload" class="btn-ui selectable"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;&nbsp;&nbsp;Skip</label></div>
+				<div><label  id="btn-crop" class="btn-ui selectable"><i class="fas fa-arrow-alt-circle-right"></i>&nbsp;&nbsp;&nbsp;Next</label></div>
+				
+				<div id="upload-crop-bottom-nav">
+					<label  id="btn-reupload" class="btn-ui selectable"><i class="fas fa-file-upload"></i>&nbsp;&nbsp;&nbsp;Browse</label>
+					<label  id="btn-delete-image" class="btn-ui selectable"><i class="fas fa-eraser"></i>&nbsp;&nbsp;&nbsp;Delete</label>
+					<label  id="btn-zoom" class="btn-ui selectable"><i class="fas fa-expand-arrows-alt"></i>&nbsp;&nbsp;&nbsp;Zoom In/Out</label>
+					<label  id="btn-reset-crop" class="btn-ui selectable"><i class="fas fa-redo-alt"></i>&nbsp;&nbsp;&nbsp;Reset Crop</label>
+				</div>
+				
+				<div id="sliders-zoom" class="sliders">
+					<label for="zoom"><i class="fas fa-expand-arrows-alt"></i>&nbsp;&nbsp;&nbsp;Adjust zoom:
+						<br /><text style="font-size:10px; font-style:italic;">Note* using your mouse/trackpad scroll up or down to zoom in/out</text>
+					</label><br />
+					<input id="slider-zoom-input" type="range" name="zoom" min="-300" max="300" value="0" data-sizing="%">
+				</div>
+			</div>
+			
+			<div id="main-adjustment">
+				<label id="final-step" class="title"><i class="fas fa-edit"></i>&nbsp;&nbsp;&nbsp;Custom Image - Edit & Adjustment</label>
+				<div id="adjustment-body">
+					<div>
+						<img name="preview-default-pic-hidden" id="preview-default-pic-hidden" style="display:none;" src="img/default.png" width="256" height="256"/>
+						<img name="preview-cropped-pic-hidden" id="preview-cropped-pic-hidden" style="display:none;" width="256" height="256"/>
+						<canvas id="preview-cropped-pic" style="display:none;"></canvas>
+					</div>
+					
+					<div style="float:left; width: 100%; text-align:center;">
+						<p>This is what your image will look like on the E-Ink display</p>
+						<canvas id="preview-dither-pic" style="display:none;"></canvas>
+						<canvas id="preview-dither-scale-pic" style="position:absolute; z-index:91; margin-left:258px; margin-top:27px;"></canvas>
+						<canvas id="preview-adjustment-text-pic" style="position:absolute; z-index:91; margin-left:258px; margin-top:139.5px;"></canvas>
+						<img id="card-selection2" src="img/beamu-card-black-empty.png" style="position:relative; box-shadow: 0 8px 6px -6px black; border-radius: 20px;"/>
+					</div>
+				</div>
+				
+				<div><label id="btn-back3" class="btn-ui selectable"><i class="fas fa-arrow-alt-circle-left"></i>&nbsp;&nbsp;&nbsp;Back</label></div>
+				<div><label id="btn-confirm" class="btn-ui selectable" onclick="on();"><i class="fas fa-check"></i>&nbsp;&nbsp;&nbsp;Done</label></div>
+			
+				<div id="adjustment-bottom-nav">
+					<label id="btn-brightness" class="btn-ui selectable"><i class="fas fa-sun"></i>&nbsp;&nbsp;&nbsp;Brightness</label>
+					<label id="btn-contrast" class="btn-ui selectable"><i class="fas fa-adjust"></i>&nbsp;&nbsp;&nbsp;Contrast</label>
+					<label id="btn-reset-adjustment" class="btn-ui selectable"><i class="fas fa-redo-alt"></i>&nbsp;&nbsp;&nbsp;Reset Adjustment</label>
+				</div>
+				
+				<div id="sliders-brightness" class="sliders">
+					<label for="brightness"><i class="fas fa-sun"></i>&nbsp;&nbsp;&nbsp;Adjust brightness:</label><br />
+					<input id="slider-brightness-input" type="range" name="brightness" min="0" max="200" value="100" data-sizing="%">
+				</div>
+				
+				<div id="sliders-contrast" class="sliders">
+					<label for="contrast"><i class="fas fa-adjust"></i>&nbsp;&nbsp;&nbsp;Adjust contrast:</label><br />
+					<input id="slider-contrast-input" type="range" name="contrast" min="0" max="200" value="100" data-sizing="%">
+				</div>
+			</div>
+			
+			<div id="overlay">
+				<div id="text">
+					<label id="btn-close-submission" class="btn-ui selectable" style="float:right;" onclick="off();"><i class="fas fa-times"></i></label>
+					
+					<h1>Customization Submission</h1>
+					<form id="contact-form"><div class="row">
+						<div>
+							<div class="form-group" style="float:left; width:45%; padding-right:5%;">
+								Full Name:<br />
+								<input type="text" class="form-control" id="cfName" name="cfName" placeholder="Your name" required>
+							</div>
+							
+							<div class="form-group" style="float:left; width:48%;">
+								Email:<br />
+								<input type="text" class="form-control" id="cfEmail" name="cfEmail" placeholder="Email address" required>
+							</div>
+						</div>
+						
+						<div style="clear:both; height:20px;"></div>
+						<div>
+							<div class="form-group" style="float:left; width:45%; padding-right:5%;">
+								Card Design Option:<br />
+								<input type="text"  class="form-control" id="cfOptions" name="cfOptions" disabled>
+							</div>
+							
+							<div class="form-group" style="float:left; width:48%;">
+								Custom Text:<br />
+								<input type="text"  class="form-control" id="cfCustomText" name="cfCustomText" disabled>
+							</div>
+						</div>
+						
+						<div style="clear:both; height:20px;"></div>
+						<div>
+							<div class="form-group" style="float:left; width:45%; padding-right:5%;">
+								Message (*Optional):<br />
+								<textarea class="form-control" id="cfMessage" name="cfMessage" placeholder="Write Message"></textarea>
+							</div>
+						
+							<div id="custom-image" class="form-group" style="float:left; width:48%;">		
+								Custom Image:<br />
+								<img id="final-image" style="width:100px; border:1px solid black;"/>
+							</div>
+						</div>
+						
+						<div style="clear:both; height:20px;"></div>
+						<div><div class="form-group">
+							<button id="btn-submit" style="width:98%;" class="selectable">Submit</button>
+						</div></div>
+					</div></form>
+					
+					<div id="processing_message" style="display:none">
+						<h3>Please wait... <br />Processing submission...</h3> 
+					</div>
+					
+					<div id="success_message" style="display:none">
+						<h3>Submitted the customization form successfully!</h3>
+						<button id="btn-start-over2" class="selectable">Start Over!</button>
+					</div>
+					
+					<div id="error_message" style="width:100%; height:100%; display:none; ">
+						<h3>Error</h3>
+						Sorry there was an error sending your customization form. Try again!
+					</div>
+				
+				</div>
+			</div>
+			
+		</main>
+		<script src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,386 @@
+@media only screen and (max-width:680px) {
+  #warning{
+	  display:block!important;
+	  position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		z-index: 1000;
+  }
+  
+  header, main{
+	  display:none;
+  }
+}
+
+@media not all and (min-resolution:.001dpcm) { @media{
+	#preview-text-pic, #preview-text-scale-pic, #preview-dither-scale-pic, #preview-adjustment-text-pic{
+		margin-left:35px!important;
+	}
+}}
+
+body{
+	background-color: #333;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+	min-height: 100% !important;
+	height: 100%;
+}
+
+a{
+	color:white;
+}
+
+.selectable, .selectable + label, .sliders input{
+	cursor:pointer;
+}
+
+.btn-ui{
+	position:relative;
+	z-index:99;
+}
+
+.btn-ui:hover, .btn-ui a:hover, .sliders:hover{
+	color: #00a4d6;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+	padding: 10px 20px;
+}
+
+.card-img{
+	box-shadow: 0 8px 6px -6px black;
+	opacity: 0.5;
+}
+
+.card-img:hover{
+	opacity: 1;
+}
+
+.card-options div{ 
+	padding-top: 55px;
+}
+
+.card-options div label{
+
+}
+
+.inputfile:focus + label, .inputfile + label:hover, main #upload-crop-bottom-nav label:hover, main #adjustment-bottom-nav label:hover{
+    background-color: #00a4d6;
+	color: white;
+}
+
+.selected{
+	background-color: #00a4d6;
+	color: white!important;
+}
+
+header{
+	background-color: #666;
+	padding-left: 1.5rem;
+    padding-right: 1.5rem;
+	position:relative;
+	z-index: 100;
+}
+
+header ul{
+	margin: 0;
+	padding: 1rem;
+}
+
+header ul li{
+	float:left;
+	display: table-cell;
+	color: white;
+	margin-right: 50px;
+	margin-left: 0px;
+}
+
+header ul li.right{
+	float:right;
+	display: table-cell;
+	color: white;
+	margin-right: 0px;
+	margin-left: 50px;
+}
+
+
+
+header ul .nav-logo text{
+	position:relative;
+	left: 5px;
+	top:-4px;
+}
+
+header ul li text{
+	position:relative;
+	left: 5px;
+	top:4px;
+}
+
+main .title{
+	font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #00a4d6;
+    display: inline-block;
+    padding: 10px 1rem;
+    width: calc(100% - 2rem);
+	z-index: 100;
+    position: relative
+}
+
+main #upload-crop-top-nav{
+	position:absolute;
+    top:calc(50% + 65px);
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 90;
+}
+
+main #adjustment-body, main #text-body{
+	position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 90;
+	width: 100%;
+}
+
+main #text-body input{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+main #text-bottom-nav, main #upload-crop-bottom-nav, main #adjustment-bottom-nav{
+	background-color: white;
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	transform:translate(-50%, 0%);
+	z-index: 100;
+	
+	box-shadow: 0 8px 6px -6px black;
+}
+
+main #upload-crop-bottom-nav, main #adjustment-bottom-nav{
+	width:800px;
+}
+
+main #text-bottom-nav{
+	width: 500px;
+}
+
+main #text-bottom-nav label{
+	color:black;
+	width: calc((100%/2) - 40px);
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+main #upload-crop-bottom-nav label{
+	color:black;
+	width: calc((100%/4) - 40px);
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+main #adjustment-bottom-nav label{
+	color:black;
+	width: calc(33.33% - 40px);
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+main #text-bottom-nav label:hover, main #upload-crop-bottom-nav label:hover, #main #adjustment-bottom-nav label:hover{
+	background-color: #00a4d6;
+	color: white;
+}
+
+main #upload-crop-bottom-nav button, main #adjustment-bottom-nav button{
+	background-color: transparent;
+	color:white;
+	border: none;
+}
+
+main #upload-crop-body{
+	background-color: #333;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+main .canvas{
+	height: 100%;
+	width: 100%;
+	-webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+	display: flex;
+    justify-content: center;
+}
+
+main #preview-crop-pic {
+	position:absolute;
+	top: 0;
+	max-width: 100%; /* This rule is very important, please do not ignore this! */
+}
+
+main #preview-cropped-pic-hidden{
+	filter: brightness(100%) contrast(100%) saturate(100%) grayscale(0%);
+    -webkit-filter: brightness(100%) contrast(100%) saturate(100%) grayscale(0%);
+}
+
+.polaroid{
+	padding:20px;
+	background-color:white;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+main #main-adjustment .sliders, main #main-upload-crop .sliders{
+	background-color: #00a4d6;
+	color: white;
+	position: absolute;
+	z-index: 101;
+	bottom: 84px;
+	left: 50%;
+	transform:translate(-50%, 0%);
+	width: 25%;
+	padding: 10px 20px;
+}
+
+main #main-text #text-input-ui{
+	background-color: #00a4d6;
+	color: white;
+	position: absolute;
+	z-index: 101;
+	bottom: 84px;
+	left: 50%;
+	transform:translate(-50%, 0%);
+	width: 15%;
+	padding: 10px 20px;
+}
+
+main #main-text #text-input-ui input{
+	width: 100%;
+}
+
+main #main-adjustment #adjustment-bottom-nav input{
+	top: 6px;
+	position: relative;
+}
+
+.sliders input{
+	width: 100%;
+}
+
+main #adjustment-bottom-nav .sliders{
+	text-align:left;
+}
+
+#overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 200;
+}
+
+#text{
+	background-color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: black;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	
+	padding:20px;
+	border: 9px solid #f2f2f2;
+	width: 50%;
+}
+
+.btn-done a{
+	color:black;
+}
+
+
+#overlay h1{
+	margin:0px;
+}
+
+#overlay h1, #overlay p {
+  text-align: left;
+}
+
+#overlay input, #overlay textarea , #overlay button{
+  width: 100%;
+}    
+
+#overlay textarea{
+  height: 100px;
+}
+
+#btn-submit, #btn-start-over2{
+	padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#btn-submit:hover, #btn-start-over2:hover{
+	background-color: #00a4d6;
+}
+
+#btn-back1, #btn-back2, #btn-back3{
+	position: fixed;
+	left: 0;
+	top: calc(50% + 65px);
+	transform: translate(0%, -50%);
+	background-color: black;
+	padding: 20px;
+}
+
+#btn-cutom-text-enter, #btn-skip-upload, #btn-crop, #btn-confirm{
+	position: fixed;
+	right: 0;
+	top: calc(50% + 65px);
+	transform: translate(0%, -50%);
+	background-color: black;
+	padding: 20px;
+}
