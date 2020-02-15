@@ -1,7 +1,0 @@
-<map id="com.ethernom.android.etherapi.EtherAPI.Write" name="com.ethernom.android.etherapi.EtherAPI.Write">
-<area shape="rect" id="node2" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol.html#aa7834cb6d0b64e72dc913a5ec1cfcfb8" title="com.ethernom.android.etherapi.\lEtherTransportProtocol.GetPayload" alt="" coords="269,13,496,54"/>
-<area shape="rect" id="node6" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_ether_comm_adapter.html#accd54674d191e15ebf08a7c8e7a8d8e9" title="com.ethernom.android.etherapi.link\lLayer.EtherCommAdapter.WriteToCard" alt="" coords="259,78,507,119"/>
-<area shape="rect" id="node3" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol.html#a0d8874e2def3ca2e1372409470124bae" title="com.ethernom.android.etherapi.\lEtherTransportProtocol.makeTransport\lPacket" alt="" coords="555,5,800,61"/>
-<area shape="rect" id="node4" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol.html#ae2c4357c0d53349f62bef02091b1577a" title="com.ethernom.android.etherapi.\lEtherTransportProtocol.getTransport\lHeader" alt="" coords="848,5,1079,61"/>
-<area shape="rect" id="node5" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1_ether_transport_protocol.html#a2689adc9963e71cb1f6814c331c6ffa5" title="com.ethernom.android.etherapi.\lEtherTransportProtocol.GetTransport\lMessageCheckSum" alt="" coords="1127,5,1361,61"/>
-</map>

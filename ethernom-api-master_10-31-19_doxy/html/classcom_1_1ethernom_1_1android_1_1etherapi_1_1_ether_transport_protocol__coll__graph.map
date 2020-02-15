@@ -1,5 +1,0 @@
-<map id="com.ethernom.android.etherapi.EtherTransportProtocol" name="com.ethernom.android.etherapi.EtherTransportProtocol">
-<area shape="rect" id="node2" href="$classcom_1_1ethernom_1_1android_1_1etherapi_1_1_card_info.html" title="com.ethernom.android.etherapi.\lCardInfo" alt="" coords="15,5,221,47"/>
-<area shape="rect" id="node3" href="$enumcom_1_1ethernom_1_1android_1_1etherapi_1_1link_layer_1_1_t_interface.html" title="com.ethernom.android.etherapi.link\lLayer.TInterface" alt="" coords="5,71,231,112"/>
-<area shape="rect" id="node4" href="$enumcom_1_1ethernom_1_1android_1_1etherapi_1_1_t_message_protocol.html" title="com.ethernom.android.etherapi.\lTMessageProtocol" alt="" coords="15,136,221,177"/>
-</map>
