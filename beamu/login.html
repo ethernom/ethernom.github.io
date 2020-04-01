@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Ethernom, Inc.</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div class="login-page">
+			<div class="form">
+				<div><img src="img/logo.png" width="150" /></div>
+				<form name="login-form" class="login-form" action="./login_questionaire.html" onsubmit="return validateForm()">
+					<input name="email" type="email" type="text" placeholder="email" autofocus />
+					<button>login</button>
+					<p class="message">Not registered? <a href="./registration_email.html">Create an account</a></p>
+				</form>
+			</div>
+		</div>
+	</body>
+	
+	<script>
+	function validateForm() {
+		var x = document.forms["login-form"]["email"].value;
+		if (x.trim() == "") {
+			alert("Email must be filled out");
+			return false;
+		}
+	}
+	</script>
+</html>
